@@ -1,0 +1,52 @@
+/* 스크롤 배경 색상 변경 */
+body {
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s;
+}
+
+/* 스크롤 비디오 배경 효과 */
+#videoBack {
+  transition: transform 0.3s ease;
+}
+
+#video-container {
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#boxYoutube {
+  position: absolute;
+  top: 57px;
+  left: 142px;
+  width: 800px;
+  height: 450px;
+}
+
+/* 스크롤 제목 효과*/
+.aniTitle {
+  opacity: 0.2;
+  transition: opacity 1s, top 0.5s;
+}
+
+#reviewTitle {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 1600px;
+  left: 50%;
+}
+
+#partyTitle {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 2320px;
+  left: 50%;
+}
+
+#onlineTitle {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 2800px;
+  left: 50%;
+}

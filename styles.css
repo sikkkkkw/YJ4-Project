@@ -1,0 +1,169 @@
+*{text-align: center; }
+/*Header*/
+#header{
+    border: 1px solid black; 
+    background-color: #FFFFFF;
+    text-align: center;
+}
+li {
+    /* list-style-type: none;
+    display: inline-block;
+    border :1px solid black;
+    width: 100px;
+    height: 50px;
+    margin-right : -4px;
+    margin-bottom : -15px;
+    padding: 10px; */
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #000000;
+    padding: 1px;
+    line-height: 2;
+    margin: 0 -4.5px -1px 0;
+    word-break: keep-all;
+    width: 135px;
+    height: 50px;
+}
+ol{
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+
+}
+ol li:hover{
+    color: rgb(118, 15, 96);
+    border-bottom: 2px solid #106aca;    
+    width: 137px;
+}
+#ee{
+    margin-top: -14px;
+
+}
+.jb-box { 
+    width: 100%; 
+    height: 700px;
+    overflow: hidden;
+    margin: 0px auto; 
+    position: relative;
+    min-width: 1920px
+}
+video { 
+    width: 100%; 
+}
+.jb-text { 
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #ffffff;
+}
+.jb-text p { 
+    margin-top: -24px; 
+    text-align: center; 
+    font-size: 48px; 
+    color: #ffffff; 
+}
+.jb-box li{
+    color: #ffffff;
+}
+iframe{
+    border: 1px solid black; 
+    border-radius: 5px;
+}
+
+/*Section*/
+body{
+    overflow-x: hidden;
+}
+#Kategorie{
+    border: 1px solid black; 
+    height:200px; 
+    width: 1080px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+#job{
+    border: 1px solid black; 
+    height:715px;
+    width: 1080px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+#part{
+    border: 1px solid black;
+    height:715px;width: 1080px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+#party{
+    border: 1px solid black;
+    height: 300px;
+    width: 1080px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+#online{
+    border: 1px solid black;
+    height: 700px;
+    width: 1080px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Footer*/
+#footer{border: 1px solid black; 
+    height: 200px; 
+    background-color: #333333;
+}
+#prr{
+    text-align: left;
+    border-top: 1px dotted white; 
+    width: 700px;
+}
+#onlin{
+    width: 1080px; 
+    margin-left: auto;
+    margin-right: auto;  
+    color: gainsboro;
+}
+#link{
+    margin-right: 5px; 
+    text-align: left;
+}
+.image{
+    border-radius: 10px; 
+    width:25px; 
+    height: 25px
+}
+.Box{display: inline-block; 
+    padding-right: 20px ; 
+    color: gainsboro; 
+    font-size: small;
+}
+#textBox{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: -10px;
+}
+@font-face {
+font-family: 'yg-jalnan';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+/* Noto Sans */
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+/* Pretendard */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
