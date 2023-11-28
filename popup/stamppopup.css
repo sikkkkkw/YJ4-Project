@@ -94,7 +94,17 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); 
   }
   
-  #stampButton:hover{
+  #stampButton div {
+    padding-bottom: 20px;
+    margin : 4px;
+  }
+
+  #stampButton div a { 
+    text-decoration: none;
+    color : black;
+  }
+  
+  #stampButton div:hover{
     background-color: rgba(41, 128, 185, 0.7);
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
