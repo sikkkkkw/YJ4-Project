@@ -2,7 +2,7 @@
 
 // 스크롤 위치 체크 함수
 function checkScrollPosition() {
-    var gotoTopButton = document.getElementById('goto-top');
+    var gotoTopButton = document.getElementById('stampButton');
 
     if (window.scrollY > 20 || document.documentElement.scrollTop > 20) {
         gotoTopButton.style.display = 'block';
