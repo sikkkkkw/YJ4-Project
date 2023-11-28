@@ -30,8 +30,15 @@ function closePop2() {
 
 function stampPopOpen() {
     document.getElementById("stamp_layer").style.display="block";
+    document.getElementById("overlay").style.display="block";
 }
 
 function stampPopClose() {
     document.getElementById("stamp_layer").style.display="none";
+    document.getElementById("overlay").style.display="none";
 }
+
+document.addEventListener("DOMContentLoaded", function(){
+    let pop = document.getElementById("stamp_layer");
+    pop.style.display = "block";
+})

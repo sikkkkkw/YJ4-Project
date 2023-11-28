@@ -35,9 +35,6 @@ button{
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
     
 }
-ol{
-
-}
 ol li:hover{
     color: rgb(118, 15, 96);
     border-bottom: 2px solid #106aca;    
