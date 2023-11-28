@@ -120,6 +120,153 @@ body{
     width: 1080px; 
     margin-left: auto;
     margin-right: auto;
+  }
+
+#onlineAsk{
+  margin-top: 150px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* border: 1px solid black; */
+  width: 535px;
+  height: 550px;
+}
+
+.onlinebtnTitle{
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.onlinebtn{
+  border: none;
+  background-color:#eeeeee;
+  margin: 10px;
+  width: 135px;
+  height: 115px;
+  display: inline;
+  border-radius:20px;
+  font-size: 15px;
+}
+
+.onlinebtn:hover{
+  cursor: pointer;
+}
+
+.onlinebtn:focus{
+  background-color:#59c7f7;
+}
+
+#onlinelongbtn{
+  width: 457px;
+  height: 90px;
+}
+
+#onlinebtnOK{
+  font-size: 20px;
+}
+
+#onlineForm{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top:3000px;
+  right:412px;
+  height:550px;
+  width: 535px;
+  align-items: center;
+}
+
+.onlineFormTxt{
+  width: 450px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding:10px;
+  border-radius:10px;
+  border: 2px solid #bebebe
+}
+
+.onlineFormTxt:hover{
+  border: 2px solid #59c7f7;
+}
+
+.onlineFormTxt:focus{
+  outline: 1px solid #59c7f7;
+}
+
+.onlineFormTel{
+  width:124px;
+  height: 50px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+  padding:10px;
+  border-radius:10px;
+  border: 2px solid #bebebe
+}
+
+.onlineFormTel-- {
+  font-size: 20px;
+
+}
+
+.onlineFormTel > option {
+  text-align: left;
+}
+
+.onlineFormTel:hover{
+  border: 2px solid #59c7f7;
+}
+
+.onlineFormTel:focus{
+  outline: 1px solid #59c7f7;
+}
+
+
+#nobodyReadTitle{
+  font-size: 25px;
+  line-height: 58px;
+}
+
+#nobodyRead{
+  position: relative;
+  left:21px;
+  padding:20px;
+  border: 2px solid #bebebe;
+  overflow-y: scroll;
+  width: 452px;
+  height: 186px;
+  border-radius:10px;
+  text-align: left;
+}
+
+#ckbx {
+  position: relative;
+  top: 1.5px;
+}
+
+#onlineSubmit{
+  position: relative;
+  top:5px;
+  left:125px;
+  width: 200px;
+  height: 53px;
+  font-size: 25px;
+  border-radius:10px;
+  border: none;
+  background-color: #59c7f7;
+  color:#FFFFFF;
+  font-weight: bold;
+}
+
+#onlineSubmit:hover{
+  cursor: pointer;
+  background-color: #106aca;
 }
 
 /*Footer*/
