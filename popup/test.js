@@ -47,3 +47,12 @@ document.addEventListener("DOMContentLoaded", function(){
     pop.style.display = "block";
 })
 
+document.getElementById('eventpage').onclick = function() {
+    pageOpen();
+}
+
+function pageOpen() {
+    let url = "asdf.html";
+    let options = "width = 1080 height = 680";
+    window.open(url, "", options)
+}
