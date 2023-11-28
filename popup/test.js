@@ -33,5 +33,5 @@ function stampPopOpen() {
 }
 
 function stampPopClose() {
-    document.getElementById("stamp_Layer").style.display="none";
+    document.getElementById("stamp_layer").style.display="none";
 }
