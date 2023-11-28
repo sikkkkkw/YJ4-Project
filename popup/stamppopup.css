@@ -1,0 +1,60 @@
+.stamp_Layer {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 10000; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+.stamp_box {
+    position: relative;
+    top:50%;
+    left:50%; 
+    overflow: auto; 
+    height: 600px; 
+    width: 800px;
+    transform:translate(-50%, -50%);
+    z-index:1002;
+    box-sizing:border-box;
+    background:#fff;
+    box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.35)
+    ;-moz-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.35);
+}
+.closePop3 {
+    height : 30px;
+    width : 800px;
+    float : top;
+    padding-left : 770px;
+}
+
+.stamp_box .stamp_cont {
+    border: 1px solid black;
+    width: 700px;
+    height: 500px;
+    margin-left :auto;
+    margin-right :auto;
+}
+
+.stamp_box .stamp_cont h1 {
+    font-size: 40px;
+    margin-top: -5px;
+}
+
+.stamp_box .stamp_cont div {
+    display: inline-block;
+    width: 180px;
+    height: 200px;
+    border : 1px solid black;
+    margin-left: 15px;
+    margin-right : 15px
+}
+
+.stamp_box .stamp_cont li {
+    list-style-type: lower-latin;
+    display: block;
+    border: 0px;
+    width: 500px;
+    text-align: left;
+}

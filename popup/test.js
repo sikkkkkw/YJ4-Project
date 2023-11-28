@@ -27,3 +27,11 @@ function openPop2() {
 function closePop2() {
     document.getElementById('popup_layer2').style.display="none";
 }
+
+function stampPopOpen() {
+    document.getElementById("stamp_layer").style.display="block";
+}
+
+function stampPopClose() {
+    document.getElementById("stamp_layer").style.display="none";
+}
