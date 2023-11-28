@@ -52,7 +52,6 @@ document.getElementById('eventpage').onclick = function() {
 }
 
 function pageOpen() {
-    let url = "asdf.html";
-    let options = "width = 1080 height = 680";
-    window.open(url, "", options)
+    let url = "eventpage.html";
+    window.open(url, "_blank","     " )
 }

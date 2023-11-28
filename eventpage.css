@@ -1,0 +1,15 @@
+* {
+    border : 1px solid black;
+}
+header {
+    width: auto;
+    height: 300px;
+}
+article {
+    width: auto;
+    height : 400px
+}
+footer {
+    width: auto;
+    height : 200px;
+}
