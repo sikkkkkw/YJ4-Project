@@ -79,12 +79,19 @@ iframe{
 body{
     overflow-x: hidden;
 }
-#Kategorie{
-    border: 1px solid black; 
-    height:200px; 
-    width: 1080px; 
+#Kategorie {
+    border: 1px solid black;
+    height: 140px;
+    width: 1080px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(248, 248, 248, 1); /* 투명도가 없는 초기 배경색 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: width 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* 트랜지션에 배경색 속성 추가 */
 }
 #job{
     border: 1px solid black; 

@@ -1,0 +1,18 @@
+#Kategorie.transparent {
+    background-color: rgba(248, 248, 248, 0.9); /* 투명도가 있는 배경색으로 변경 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#Kategorie-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 20px;
+}
+
+#Kategorie-content h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
