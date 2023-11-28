@@ -66,6 +66,14 @@
     margin-top : 20px;
     font-size: 20px;
 }
+#ex {
+  width : 600px;
+  height: 180px;
+}
+#ex p{
+  text-align: left;
+  padding-left: 10px;
+}
 
 #overlay {
     display: none;
@@ -107,3 +115,4 @@
     background-color: rgba(41, 128, 185, 0.7);
     transform: scale(1.1);
   }
+  
