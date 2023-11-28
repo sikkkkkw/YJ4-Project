@@ -13,7 +13,7 @@
     top:10px;
     left:10px; 
     overflow: auto; 
-    height: 600px; 
+    height: 800px; 
     width: 800px;
     
     z-index:1002;
@@ -33,7 +33,7 @@
 .stamp_box .stamp_cont {
     border: 1px solid black;
     width: 700px;
-    height: 500px;
+    height: 700px;
     margin-left :auto;
     margin-right :auto;
 }
