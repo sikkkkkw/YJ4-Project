@@ -13,7 +13,7 @@
   top:10px;
   left:10px; 
   overflow: auto; 
-  height: 1000px; 
+  height: 900px; 
   width: 800px;
 
   overflow-x: hidden;
@@ -83,7 +83,7 @@
 #ex {
   border-top: 30px solid #1c7cfe;
   width : 600px;
-  height: 250px;
+  height: 230px;
   border-radius: 30px;
 }
 #ex2 {
@@ -95,6 +95,7 @@
   text-align: left;
   color : black;
   font-weight: 900;
+  margin-top: -5px;
 }
 #e {
   border-top :30px solid #1c7cfe;
@@ -154,7 +155,7 @@
   font-size: 20px;
   width: 200px;
   height: 50px;
-  margin-top : 200px;
+  margin-top: -10px;
 }
 
 #eventpage:hover{
