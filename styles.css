@@ -35,14 +35,23 @@ button{
     font-size: 1.2em;
     background: #fff;
     border: none;
-    font-family: 'yg-jalnan';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     
 }
-ol li:hover{
-    color: rgb(118, 15, 96);
-    border-bottom: 3px solid #106aca;    
-    width: 150px;
+#hoverr li{
+  border-radius: 10px;
+}
+#hoverr li:hover{
+  color: #106aca;
+  border-bottom: 3px solid #106aca;    
+  width: 150px;
+}
+#hoverr button{
+  border-radius: 10px;
+}
+#hoverr button:hover{
+  color:#106aca;
 }
 .jb-box { 
     width: 100%; 
@@ -85,14 +94,8 @@ body{
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    background-color: rgba(248, 248, 248, 1); /* 투명도가 없는 초기 배경색 */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: width 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* 트랜지션에 배경색 속성 추가 */
 }
+
 #job{
     border: 1px solid black; 
     height:715px;
@@ -267,14 +270,17 @@ body{
 }
 
 /*Footer*/
-#footer{border: 1px solid black; 
-    height: 200px; 
-    background-color: #333333;
+#footer{
+  border: 1px solid black; 
+  height: 200px; 
+  background-color: #333333;
 }
 #prr{
     text-align: left;
     border-top: 1px dotted white; 
     width: 700px;
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
 }
 #onlin{
     width: 1080px; 
