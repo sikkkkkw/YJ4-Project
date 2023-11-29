@@ -1,3 +1,17 @@
+#Kategorie {
+    border: 1px solid black;
+    height: 200px;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(248, 248, 248, 1); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: width 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; 
+}
 #Kategorie.transparent {
     background-color: rgba(248, 248, 248, 0.9); /* 투명도가 있는 배경색으로 변경 */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
