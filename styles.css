@@ -270,9 +270,10 @@ body{
 }
 
 /*Footer*/
-#footer{border: 1px solid black; 
-    height: 200px; 
-    background-color: #333333;
+#footer{
+  border: 1px solid black; 
+  height: 200px; 
+  background-color: #333333;
 }
 #prr{
     text-align: left;
