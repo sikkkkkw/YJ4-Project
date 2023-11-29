@@ -58,10 +58,11 @@
   list-style-type: decimal;   
 }
 .stamp_box .stamp_cont li {
-  margin-left: 25px;
+  margin-left: 80px;
   display: list-item;
   border: 0px;
   width: 500px;
+  height: 50px;
   text-align: left;
   color : black ;
   margin-top : 20px;
