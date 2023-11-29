@@ -39,10 +39,19 @@ button{
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     
 }
-ol li:hover{
-    color: rgb(118, 15, 96);
-    border-bottom: 3px solid #106aca;    
-    width: 150px;
+#hoverr li{
+  border-radius: 10px;
+}
+#hoverr li:hover{
+  color: #106aca;
+  border-bottom: 3px solid #106aca;    
+  width: 150px;
+}
+#hoverr button{
+  border-radius: 10px;
+}
+#hoverr button:hover{
+  color:#106aca;
 }
 .jb-box { 
     width: 100%; 
@@ -89,10 +98,11 @@ body{
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: rgba(248, 248, 248, 1); /* 투명도가 없는 초기 배경색 */
+    background-color: rgba(248, 248, 248, 1); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: width 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* 트랜지션에 배경색 속성 추가 */
+    transition: width 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; 
 }
+
 #job{
     border: 1px solid black; 
     height:715px;
