@@ -1,15 +1,160 @@
 * {
-    border : 1px solid black;
+  text-align: center;
 }
+
+body {
+  /* background-color: #8eddff; */
+  background-image: url('eventpage/bodyBack.png');
+}
+
 header {
-    width: auto;
-    height: 300px;
+  width: auto;
+  height: auto;
+  padding-top: 30px;
 }
-article {
-    width: auto;
-    height : 400px
+
+#headLogo1 {
+  display: inline-block;
+  background-color: #0071f9;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  width: 700px;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
 }
-footer {
-    width: auto;
-    height : 200px;
+
+#headLogo2 {
+  display: block;
+  font-size: 95px;
+  line-height: 105px;
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+}
+
+#topTxt {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.nomalTxt{
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+}
+
+#backSmall {
+  position: relative;
+  margin-top: 20px;
+  width: 1000px;
+  z-index: -1;
+}
+
+.circle {
+  position: absolute;
+  width: 220px;
+  z-index: 2;
+  top: 490px
+}
+
+#circle1 {left: 553px;}
+#circle2 {left: 50%; transform: translateX(-50%);}
+#circle3 {left: 1133px;}
+
+.circleTxt {
+  position: absolute;
+  top: 700px;
+  font-size: 30px;
+}
+
+#circleTxt1 {left: 575px;}
+#circleTxt2 {left: 50%; transform: translateX(-50%);}
+#circleTxt3 {left: 1165px;}
+
+.btnGo {
+  position: absolute;
+  top: 820px;
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  background-color: #0071f9;
+  color: white;
+  font-size: 25px;
+  font-family: 'yg-jalnan';
+  letter-spacing: 2px;
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+}
+
+#btnGo1 {left: 595px;}
+#btnGo2 {left: 50%; transform: translateX(-50%);}
+#btnGo3 {left: 1185px;}
+
+#backSmall2 {
+  position: relative;
+  margin-top: 50px;
+  width: 1000px;
+  z-index: -1;
+}
+
+.evRe {
+  position: absolute;
+  top: 1130px;
+  width: 230px;
+}
+
+#evReTxt {
+  position: absolute;
+  top: 1050px;
+  font-size: 30px;
+  font-weight: bold;
+  left: 50%; transform: translateX(-50%);
+}
+
+#evRe1 {left: 545px;}
+#evRe2 {left: 50%; transform: translateX(-50%);}
+#evRe3 {left: 1123px;}
+
+.eventTxt1 {
+ position: absolute;
+ top: 1400px;
+ font-size: 28px;
+}
+
+#ev1-1 {
+  left: 715px;
+  font-weight: bold;
+  color: #0071f9;
+}
+
+#ev1-2 {
+  left: 870px;
+  color: #0071f9;
+}
+
+.eventTxt2 {
+  position: absolute;
+  top: 1445px;
+  font-size: 28px;
+ }
+
+ #downImg {
+  width: 850px;
+ }
+
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
