@@ -1,74 +1,76 @@
 .stamp_layer {
-    display: none;
-    position:fixed;
-    top:0;
-    left:0;
-    z-index: 10000; 
-    width: 100%; 
-    height: 100%; 
-    background-color: rgba(0, 0, 0, 0.4); 
+  display: none;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index: 10000; 
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.4); 
 }
 .stamp_box {
-    position: relative;
-    top:10px;
-    left:10px; 
-    overflow: auto; 
-    height: 800px; 
-    width: 800px;
-    
-    z-index:1002;
-    box-sizing:border-box;
-    background:#fff;
-    box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.35);
-    -webkit-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.35)
-    ;-moz-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.35);
+  position: relative;
+  top:10px;
+  left:10px; 
+  overflow: auto; 
+  height: 800px; 
+  width: 800px;
+  
+  z-index:1002;
+  box-sizing:border-box;
+  background:#fff;
+  box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.35)
+  ;-moz-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.35);
 }
 .closePop3 {
-    height : 30px;
-    width : 800px;
-    float : top;
-    padding-left : 770px;
+  height : 30px;
+  width : 800px;
+  float : top;
+  padding-left : 770px;
 }
 
 .stamp_box .stamp_cont {
-    border: 1px solid black;
-    width: 700px;
-    height: 700px;
-    margin-left :auto;
-    margin-right :auto;
+  border: 1px solid black;
+  width: 700px;
+  height: 700px;
+  margin-left :auto;
+  margin-right :auto;
 }
 
 .stamp_box .stamp_cont h1 {
-    font-size: 40px;
-    margin-top: -5px;
-    color: black;
+  font-size: 40px;
+  margin-top: -5px;
+  color: black;
 }
 
 .stamp_box .stamp_cont div {
-    display: inline-block;
-    width: 180px;
-    height: 200px;
-    border : 1px solid black;
-    margin-left: 15px;
-    margin-right : 15px;
-    color : black;
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  border : 1px solid black;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right : 15px;
+  color : black;
 }
 .stamp_box .stamp_cont ol {
-    list-style-type: decimal;   
+  list-style-type: decimal;   
 }
 .stamp_box .stamp_cont li {
-    margin-left: 25px;
-    display: list-item;
-    border: 0px;
-    width: 500px;
-    text-align: left;
-    color : black ;
-    margin-top : 20px;
-    font-size: 20px;
+  margin-left: 25px;
+  display: list-item;
+  border: 0px;
+  width: 500px;
+  text-align: left;
+  color : black ;
+  margin-top : 20px;
+  font-size: 20px;
 }
 #ex {
   width : 600px;
   height: 180px;
+  border-radius: 0%;
 }
 #ex p{
   text-align: left;
@@ -76,43 +78,43 @@
 }
 
 #overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-  }
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
 
-  #stampButton {
-    position: fixed;
-    width: 60px;
-    height: 200px;
-    right: 10px;
-    bottom: 10px;
-    border-radius: 7%;
-    background-color: rgba( 100, 100, 100, 0.5 );
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out, transform 0.4s ease-in-out;
-    font-family: 'yg-jalnan';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); 
-  }
-  
-  #stampButton div {
-    padding: 10px;
-    margin : 4px;
-  }
+#stampButton {
+  position: fixed;
+  width: 60px;
+  height: 200px;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 7%;
+  background-color: rgba( 100, 100, 100, 0.5 );
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.4s ease-in-out;
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); 
+}
 
-  #stampButton div a { 
-    text-decoration: none;
-    color : black;
-  }
-  
-  #stampButton div:hover{
-    background-color: rgba(41, 128, 185, 0.7);
-    transform: scale(1.1);
-  }
-  
+#stampButton div {
+  padding: 10px;
+  margin : 4px;
+}
+
+#stampButton div a { 
+  text-decoration: none;
+  color : black;
+}
+
+#stampButton div:hover{
+  background-color: rgba(41, 128, 185, 0.7);
+  transform: scale(1.1);
+}
+
