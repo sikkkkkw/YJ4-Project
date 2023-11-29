@@ -123,13 +123,13 @@ body{
   }
 
 #onlineAsk{
-  margin-top: 150px;
-  padding-top: 10px;
+  display: inline-block;
+  position: relative;
+  top:-55px;
   padding-left: 20px;
   padding-right: 20px;
-  /* border: 1px solid black; */
   width: 535px;
-  height: 550px;
+  height: 500px;
 }
 
 .onlinebtnTitle{
@@ -169,11 +169,8 @@ body{
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  position: absolute;
-  top:3000px;
-  right:412px;
-  height:550px;
-  width: 535px;
+  display: inline-block;
+  margin-top: 130px;
   align-items: center;
 }
 

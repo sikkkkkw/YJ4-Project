@@ -46,13 +46,14 @@ background-image: url('nextImg.png');
 /*자동 캐러셀 스타일*/
 
 .carouselBox2 {
+  position: relative;
   width: 1060px;
-  overflow-x: hidden;
+  left: -40%
 }
 
 .carousel2 {
   display: flex;
-  transition: transform 1s ease;
+  transition: transform 2s ease;
 }
 
 .carousel2 img {
