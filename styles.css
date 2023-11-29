@@ -21,18 +21,18 @@ li {
     display: inline-block;
     text-align: center;
     border: 1px solid #ddd;
-
     color: #000000;
     padding: 1px;
     line-height: 2;
     margin: 0 -4.5px -1px 0;
     word-break: keep-all;
     width: 150px;
-    height: 60px;
+    height: 120px;
 }
 button{
     width: 147px;
-    height: 55px;
+    height: 115px;
+    font-size: 1.2em;
     background: #fff;
     border: none;
     font-family: 'yg-jalnan';
@@ -41,8 +41,8 @@ button{
 }
 ol li:hover{
     color: rgb(118, 15, 96);
-    border-bottom: 2px solid #106aca;    
-    width: 147px;
+    border-bottom: 3px solid #106aca;    
+    width: 150px;
 }
 .jb-box { 
     width: 100%; 
