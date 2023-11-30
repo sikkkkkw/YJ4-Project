@@ -28,6 +28,7 @@ header {
 
 #backBtn:hover{
   cursor: pointer;
+  background-color: #004996;
 }
 
 #backBtnImg{
@@ -109,6 +110,11 @@ header {
   font-family: 'yg-jalnan';
   letter-spacing: 2px;
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+}
+
+.btnGo:hover{
+  cursor: pointer;
+  background-color: #004996;
 }
 
 #btnGo1 {left: 595px;}
