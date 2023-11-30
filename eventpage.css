@@ -13,6 +13,29 @@ header {
   padding-top: 30px;
 }
 
+#backBtn{
+  position: absolute;
+  top:20px;
+  left:20px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: #0071f9;
+  color: white;
+  font-size: 20px;
+}
+
+#backBtn:hover{
+  cursor: pointer;
+  background-color: #004996;
+}
+
+#backBtnImg{
+  width: 30px;
+  height: 30px;
+}
+
 #headLogo1 {
   display: inline-block;
   background-color: #0071f9;
@@ -87,6 +110,11 @@ header {
   font-family: 'yg-jalnan';
   letter-spacing: 2px;
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+}
+
+.btnGo:hover{
+  cursor: pointer;
+  background-color: #004996;
 }
 
 #btnGo1 {left: 595px;}
