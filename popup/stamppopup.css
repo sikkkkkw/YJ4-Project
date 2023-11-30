@@ -60,7 +60,7 @@
   margin-top: 10px;
   color : #1c7cfe;
   font-size: 20px;
-  background-color: #c1f1ff;
+  background-color: #ffffff;
 }
 .stamp_box .stamp_cont h3 {
   margin-bottom: -5px;
@@ -90,20 +90,28 @@
   margin-top: 20px;
   width: 340px;
   height: 180px;
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); 
 }
 #ex2 p{
   text-align: left;
   color : black;
   font-weight: 900;
-  margin-top: -5px;
+  margin-top: -5px;  
 }
 #e {
   border-top :30px solid #1c7cfe;
   border-radius: 30px;
   width: 600px;
-  height: 220px;
+  height: 210px;
   margin-bottom: 5px;
-  margin-top : 40px
+  margin-top : 35px; 
+}
+#e li{
+  margin-left:140px;
+  text-align: left;
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
 }
 
 #overlay {
@@ -124,7 +132,7 @@
   right: 15px;
   bottom: 30px;
   border-radius: 10px;
-  background-color: rgba( 100, 100, 100, 0.5 );
+  background-color: rgba(22, 4, 4, 0.5);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transition: background-color 0.3s ease-in-out, transform 0.4s ease-in-out;
@@ -145,20 +153,41 @@
 
 #stampButton div:hover{
   background-color: rgba(41, 128, 185, 0.7);
-  transform: scale(1.1);
+  transform: scale(1.0.9);
+  border-radius: 15px;
 }
 
 #eventpage {
   border: 2px solid darkblue;
   background-color: skyblue;
-  border-radius: 20px;
-  font-size: 20px;
+  border-radius: 15px;
+  font-size: 17px;
   width: 200px;
-  height: 50px;
-  margin-top: -10px;
+  height: 40px;
+  margin-top: 10px;
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  transition: background-color 0.3s ease; /* 부드러운 색 변화를 위한 트랜지션 추가 */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+  line-height: 35px; /* 텍스트 수직 중앙 정렬 */
 }
 
-#eventpage:hover{
+#eventpage:hover {
   background-color: #1c7cfe;
-  transform: scale(1.2);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* 호버 시 그림자 효과 향상 */
+}
+#eventpage:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 40px;
+}
+#eventpage span {
+  color: white;
+  font-weight: bold;
 }
