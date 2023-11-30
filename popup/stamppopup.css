@@ -1,3 +1,8 @@
+#ex3 {
+  margin-right: 80px;
+  margin-top: 15px;
+  
+}
 .stamp_layer {
   display: none;
   position:fixed;
@@ -163,15 +168,32 @@
   border-radius: 15px;
   font-size: 17px;
   width: 200px;
-  height: 35px;
+  height: 40px;
   margin-top: -10px;
   font-family: 'yg-jalnan';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  transition: background-color 0.3s ease; /* 부드러운 색 변화를 위한 트랜지션 추가 */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+  line-height: 35px; /* 텍스트 수직 중앙 정렬 */
 }
-#ex3{
-  margin-right: 80px;
-  margin-top: 15px;
+
+#eventpage:hover {
+  background-color: #1c7cfe;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* 호버 시 그림자 효과 향상 */
 }
-#eventpage:hover{
-  background-color: #1c7cfe; 
+#eventpage:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, #63a4ff, #1c7cfe);
+  z-index: -1;
+  border-radius: 15px;
+}
+#eventpage span {
+  color: white;
+  font-weight: bold;
 }
