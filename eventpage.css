@@ -13,6 +13,56 @@ header {
   padding-top: 30px;
 }
 
+#backBtn{
+  position: absolute;
+  top:20px;
+  left:20px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: #0071f9;
+  color: white;
+}
+
+#backBtn:hover{
+  cursor: pointer;
+  background-color: #004996;
+}
+
+#backBtnImg{
+  width: 30px;
+  height: 30px;
+}
+
+.logIN{
+  position: absolute;
+  top:20px;
+  border: 3px solid #0071f9;
+  border-radius: 20px;
+  background-color: rgba(0,0,0,0);
+  width: 95px;
+  height: 52px;
+  color: #0071f9;
+  font-size: 21px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.logIN:hover{
+  cursor: pointer;
+  background-color:#0071f9;
+  color:white;
+}
+
+#logIN1{
+  right: 20px;
+}
+
+#logIN2{
+  right: 120px;
+}
+
 #headLogo1 {
   display: inline-block;
   background-color: #0071f9;
@@ -87,6 +137,11 @@ header {
   font-family: 'yg-jalnan';
   letter-spacing: 2px;
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+}
+
+.btnGo:hover{
+  cursor: pointer;
+  background-color: #004996;
 }
 
 #btnGo1 {left: 595px;}
