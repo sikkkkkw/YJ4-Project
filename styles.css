@@ -99,7 +99,7 @@ body{
 #job{
     border: 1px solid black; 
     height:715px;
-    width: 1920px; 
+    width: 1080px; 
     margin-left: auto;
     margin-right: auto; 
 }
@@ -339,6 +339,8 @@ font-style: normal;
     font-style: normal;
 }
 #back{
-  background-color: #59c7f7;
-  height: 716px;
+  background-image: url(./images/color/후보3.jpg);
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto; 
 }

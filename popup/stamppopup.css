@@ -175,19 +175,4 @@
 
 #eventpage:hover {
   background-color: #1c7cfe;
-  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* 호버 시 그림자 효과 향상 */
-}
-#eventpage:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  border-radius: 40px;
-}
-#eventpage span {
-  color: white;
-  font-weight: bold;
 }
