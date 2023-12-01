@@ -148,11 +148,12 @@ body{
   height: 115px;
   display: inline;
   border-radius:20px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .onlinebtn:hover{
   cursor: pointer;
+  font-weight: bold;
 }
 
 .onlinebtn:focus{
@@ -231,11 +232,12 @@ body{
 #nobodyReadTitle{
   font-size: 25px;
   line-height: 58px;
+  
 }
 
 #nobodyRead{
   position: relative;
-  left:21px;
+  left:10px;
   padding:20px;
   border: 2px solid #bebebe;
   overflow-y: scroll;
@@ -271,7 +273,7 @@ body{
 
 /*Footer*/
 #footer{
-  border: 1px solid #d1d1d1; 
+  border: 1px solid #ececec; 
   height: 230px; 
   background-color: #ececec;
 }
@@ -318,6 +320,16 @@ body{
   font-family: 'Pretendard-Regular';
   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
 }
+#back{
+  background-image: url(./images/color/후보3.jpg);
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+#main{
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+}
 
 @font-face {
 font-family: 'yg-jalnan';
@@ -337,10 +349,4 @@ font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
-}
-#back{
-  background-image: url(./images/color/후보3.jpg);
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto; 
 }

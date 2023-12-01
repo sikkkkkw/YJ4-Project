@@ -26,7 +26,7 @@
         </nav>
       <div class="jb-text">
         <nav>
-          <p>영진직업전문학교, 세계로 향하다.</p>
+          <p id="main">영진직업전문학교, 세계로 향하다.</p>
         </nav>
       </div>
     </header>
@@ -34,7 +34,7 @@
         <article id="Kategorie">
           <div>
             <ol id="hoverr">
-              <li><button onclick="changeTube('WKzlh8Ghhqs?si=e2QMNZZ7ekEzXyyo')"><i class="fa-solid fa-desktop"></i><br/>IT.SW</button></li>
+              <li><button onclick="changeTube('WKzlh8Ghhqs?si=e2QMNZZ7ekEzXyyo')"><i class="fa-solid fa-desktop"></i><br/>IT·SW</button></li>
               <li><button onclick="changeTube('-TBzXfrRoi8?si=4KqWvzUnkjqB2jFs')"><i class="fa-solid fa-gears"></i><br/>기계/전기</button></li>
               <li><button onclick="changeTube('vns-qDK4pk8?si=5jSMxk51KWtpdB4G')"><i class="fa-solid fa-landmark-dome"></i><br/>조경/가구</button></li>
               <li><button onclick="changeTube('qW9tQgtbPgM?si=57ZOeENN-0PV4YaO')"><i class="fa-solid fa-shirt"></i><br/>디자인/패션</button></li>
@@ -51,7 +51,12 @@
         <article id="back">
           <article id="job">
             <div id="video-container" class="all">
+              <p id="BackText1">동해물과 백두산이 마르고 닳도록<br>
+                하느님이 보우하사 우리나라 만세<br>
+                무궁화 삼천리 화려 강산<br>
+                대한사람 대한으로 길이 보전하세 현기짱</p>
               <img id="videoBack" src="./srcoll/shadow.png">
+              
               <!-- YouTube 영상 추가 -->
               <iframe id="boxYoutube" src="https://www.youtube.com/embed/IycNYCKWIrU?si=eJ4fg9g5wFgNt_qD" frameborder="0" allowfullscreen></iframe>
             </div>
@@ -152,7 +157,7 @@
           <a href="javascript:openPop2();"><p class="Box fontPretendard">메일주소무단수집거부</p></a>
         </div>
       <pre id="prr" class="fontPretendard">
-
+      
 회사명 : 영진직업전문학교 대표자 : 곽승호, 차영숙 <a href="mailto:cha8877@hanmail.net"><img src="./images/MailIcon.JPG" alt="cha8877@hanmail.net" width="11px" height="9px"></a> cha8877@hanmail.net Tel : 053-983-8877 Fax : 053-722-2423 
 개인정보보호책임자 : 이동석 <a href="mailto:cha8877@hanmail.net"><img src="./images/MailIcon.JPG" alt="cha8877@hanmail.net" width="11px" height="9px"></a> cha8877@hanmail.net Tel : 053-983-8877 사업자번호 : 502-95-07029
 701-835 대구광역시 동구 화랑로 525(용계동), 조경실습장 : 대구 동구 도동 806-21
@@ -176,20 +181,31 @@ copyright © 대구국비지원 무료교육센터 영진직업전문학교. All
   <!-- 개인정보보호정책 팝업레이어 -->
   <div class="popup_layer" id="popup_layer" style="display: none;">
     <div class="popup_box">
-        <div style="height: 10px; width: 600px; float: top;">
+        <div style="height: 10px; width: 650px; float: top;">
           <a href="javascript:closePop();"><img src="./popup/ic_close.svg" class="m_header-banner-close" width="30px" height="30px"></a>
         </div>
         <!--팝업 컨텐츠 영역-->
         <div class="popup_cont">
             <h4> 개인정보보호정책</h4>
             <div class="popup_text">
-              수집하는 개인정보 항목
+              ■ 수집하는 개인정보 항목<br>
+학교는 회원가입, 상담, 서비스 신청 등등을 위해 아래와 같은 개인정보를 수집하고 있습니다.<br>
+◦수집항목(일반회원) : 이름, 아이디, 비밀번호, 생년월일, 성별, 이메일, 자택전화번호, 휴대폰번호, 자택주소<br>
+◦수집항목(수강회원) : 이름, 아이디, 비밀번호, 생년월일, 성별, 이메일, 자택전화번호, 휴대폰번호, 자택주소<br>
+◦수집항목(기업회원) : 이름, 아이디, 비밀번호, 이메일, 일반전화번호, 팩스번호, 휴대폰번호, 업체명, 사업자번호, 사업장주소<br>
+◦개인정보 수집방법 : 홈페이지(회원가입)
             </div>
             <div class="popup_text">
-              개인정보의 수집 및 이용목적
+              ■ 개인정보의 수집 및 이용목적<br>
+학교는 수집한 개인정보를 다음의 목적을 위해 활용합니다.<br>
+◦회원(직업훈련생) 관리<br>
+구직자(실업자) 및 재직근로자 지원 훈련자격 심사를 위한 고용노동부 제출<br>
+민원처리, 고지사항 전달, 교육정보전달<br>
             </div>
             <div class="popup_text">
-              개인정보의 보유 및 이용기간
+              ■ 개인정보의 보유 및 이용기간<br>
+원칙적으로, 개인정보는 본교 입학 후 5년간 보관합니다.<br>
+◦보존 기간 : 본교 입학 후 5년<br>
             </div>
         </div>
     </div>
@@ -197,17 +213,17 @@ copyright © 대구국비지원 무료교육센터 영진직업전문학교. All
   <!-- 메일주소무단수집거부 팝업레이어 -->
   <div class="popup_layer2" id="popup_layer2" style="display: none;">
     <div class="popup_box2">
-        <div style="height: 10px; width: 600px; float: top; ">
+        <div style="height: 10px; width: 530px; float: top; ">
           <a href="javascript:closePop2();"><img src="./popup/ic_close.svg" class="m_header-banner-close" width="30px" height="30px"></a>
         </div>
         <!--팝업 컨텐츠 영역-->
         <div class="popup_cont2">
             <h4> 메일주소무단수집거부</h4>
             <div class="popup_text2">
-              우리 영진직업전문학교 회원에게 무차별적으로 보내지는 타사의 메일을 차단하기 위해,
-본 웹사이트에 게시된 이메일 주소가 전자우편 수집 프로그램이나 그 밖의 기술적 장치를 이용하여
-무단으로 수집되는 것을 거부하며, 이를 위반시 정보통신망법에 의해 형사처벌됨을 유념하시기 바랍니다.
-[게시일 2014년 7월 2일]
+              우리 영진직업전문학교 회원에게 무차별적으로 보내지는 타사의 메일을 차단하기 위해,<br>
+본 웹사이트에 게시된 이메일 주소가 전자우편 수집 프로그램이나 그 밖의 기술적 장치를 이용하여<br>
+무단으로 수집되는 것을 거부하며, 이를 위반시 정보통신망법에 의해 형사처벌됨을 유념하시기 바랍니다.<br>
+[게시일 2023년 12월 1일]
             </div>
         </div>
     </div>
