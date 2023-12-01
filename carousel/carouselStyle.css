@@ -1,54 +1,54 @@
-/*수동 캐러셀 스타일*/
-* {
+/* 캐러셀 스타일 */
+*{
   box-sizing: border-box;
 }
-
 .carouselBox {
-width: 1060px;
-height: 400px;
-overflow: hidden;
-position: relative;
-margin-left: 10px;
-margin-right: 10px;
+  width: 1080px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 80px;
 }
 
 .carousel {
-display: flex;
-transform: translate3d(0, 0, 0);
-transition: 0.3s ease;
-margin-left: 5px;
-margin-right: 5px;
+  display: flex;
+  transition: transform 0.3s ease;
+  margin-top : 50px;
 }
 
 .carouselBox .carousel img {
-width: 340px;
-height: 390px;
-margin: 5px;
+  width: 360px;
+  height: 250px;
 }
 
-.carouselBox .carousel img:hover {
-  border: 5px solid red;
+.carouselBox .carousel img.active {
+  opacity: 1;
+}
+
+.carousel img:hover {
+  border: 8px solid red;
 }
 
 .prev, .next {
-cursor: pointer;
-width: 30px; 
-height: 30px;
-background-size: contain;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
 }
+
 .prev {
-background-image: url('prevImg.png');
+  background-image: url('prevImg.png');
 }
+
 .next {
-background-image: url('nextImg.png');
+  background-image: url('nextImg.png');
 }
 
-/*자동 캐러셀 스타일*/
-
+/* 자동 캐러셀 스타일 */
 .carouselBox2 {
   position: relative;
   width: 1060px;
-  left: -40%
+  left: -40%;
 }
 
 .carousel2 {
@@ -59,4 +59,3 @@ background-image: url('nextImg.png');
 .carousel2 img {
   margin: 10px;
 }
-
