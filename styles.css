@@ -318,6 +318,16 @@ body{
   font-family: 'Pretendard-Regular';
   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
 }
+#back{
+  background-image: url(./images/color/후보3.jpg);
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+#main{
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+}
 
 @font-face {
 font-family: 'yg-jalnan';
@@ -337,10 +347,4 @@ font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
-}
-#back{
-  background-image: url(./images/color/후보3.jpg);
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto; 
 }
