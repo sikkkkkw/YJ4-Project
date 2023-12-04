@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>대구국비지원 무료교육센터 영진직업전문학교</title>
+    <title>영진직업전문학교</title>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./carousel/carouselStyle.css" />
     <link rel="stylesheet" href="./srcoll/Scroll.css" />
@@ -17,6 +17,8 @@
   <script src="./srcoll/Scroll.js"></script>
    <header id="header">
       <img src="./images/YungjinRogo1.png" alt="영진직업전문학교" />
+      <input onclick="openSignupPop()" class="topLogin fontPretendard" style="right: 120px;" type="button" value="가입">
+      <input onclick="openLoginPop()" class="topLogin fontPretendard" type="button" value="로그인">
         <nav>
           <div class="jb-box">
             <video id="headVideo" muted autoplay loop >
@@ -55,12 +57,20 @@
                 changeTxt(txt)
               }
 
-              let txtArr = ["<span class='tubeTxt1'>스스로 학습하는<br>습관이 생겼습니다.</span><br><span class='tubeTxt2'>박현호 수료생</span><br><span class='tubeTxt3'>해보고 싶은 게 있을 때,<br>어떻게 시작해야 할지<br>잘 모르겠을 때 시작한다는<br>마음으로 교육을 듣는다면<br>좋을 것 같습니다.</span>", 
+              let txtArr = ["<span class='tubeTxt1'>스스로 학습하는<br>습관 생성</span><br><span class='tubeTxt2'>박현호 수료생</span><br><span class='tubeTxt3'>해보고 싶은 게 있을 때,<br>어떻게 시작해야 할지<br>잘 모르겠을 때 시작한다는<br>마음으로 교육을 듣는다면<br>좋을 것 같습니다.</span>", 
               "<span class='tubeTxt1'>체계적인 과정을<br>통한 실력 양성</span><br><span class='tubeTxt2'>김경섭 수료생</span><br><span class='tubeTxt3'>함께한 동기들과의<br>단합 시간이 가장 기억에<br>남습니다. (중략) 동기들과<br>협동하며 꾸준히 노력한다면 좋은 성과가 반드시<br>있을 것이라고 생각합니다.</span>", 
               "<span class='tubeTxt1'>NCS를 기반으로 실용적인 지식 학습</span><br><span class='tubeTxt2'>양정우 수료생</span><br><span class='tubeTxt3'>전공자, 비전공자 상관없이<br>아주 기초부터 차근차근<br>단계를 밟아 나가는 수업으로 구성되어 있어 무리없이<br>따라갈 수 있었습니다.</span>", 
               "<span class='tubeTxt1'>서투른 부분을<br>채워주는 교수님의 피드백</span><br><span class='tubeTxt2'>양현예 수료생</span><br><span class='tubeTxt3'>훈련 초반부터 과제를<br>진행했는데, 미숙한 부분이<br>많았지만 교수님의 지도를<br>받아 즐겁게 작업할 수<br>있었습니다.</span>", 
-              "<span class='tubeTxt1'>먼작귀</span><br><span class='tubeTxt2'>가르마</span><br><span class='tubeTxt3'>뭐야 벌써 아침이네<br>혼잣말을 해<br>구워진 빵에 버터 발라발라<br>비가 그치면 주변이 눅눅해<br>아직 축축해<br>이상한 발자국이 있다고<br>생각했더니<br>어젯밤에 만든 발자국<br></span>", 
+              "<span class='tubeTxt1'>먼작귀</span><br><span class='tubeTxt2'>가르마</span><br><span class='tubeTxt3'>뭐야 벌써 아침이네<br>혼잣말을 해<br>비가 그치면 주변이 눅눅해<br>아직 축축해<br>이상한 발자국이 있다고<br>생각했더니<br>어젯밤에 만든 발자국</span>", 
               "<span class='tubeTxt1'>제목</span><br><span class='tubeTxt2'>이름</span><br><span class='tubeTxt3'>내용</span>"];
+
+              function openLoginPop() {
+                  window.open('login.html', '_blank', 'width=460, height=500, top=50, left=50');
+                }
+
+                function openSignupPop() {
+                  window.open('login.html', '_blank', 'width=460, height=500, top=50, left=50');
+                }
             </script>
           </div>
         </article>
@@ -69,9 +79,8 @@
             <div id="video-container" class="all">
               <p class="fontPretendard" id="BackText1"><span class='tubeTxt1'>LEVEL UP!</span><br>
                 <span class="tubeTxt2">영진직업전문학교</span>
-                <span class='tubeTxt3'><br>취준생도 재직자도<br>누구나 배울 수 있는 곳!<br>취업능력UP!<br>실무능력UP!<br>가능성이 UP!<br>직업훈련 기관의 A+<br>영진직업전문학교!</span></p>
-              <!-- <img id="videoBack" src="./srcoll/shadow.png"> -->
-              
+                <span class='tubeTxt3'><br>취준생도 재직자도<br>누구나 배울 수 있는 곳!<br>취업능력 UP!<br>실무능력 UP!<br>가능성이 UP!<br>직업훈련 기관의 A+<br>영진직업전문학교!</span></p>
+             
               <!-- YouTube 영상 추가 -->
               <iframe id="boxYoutube" src="https://www.youtube.com/embed/IycNYCKWIrU?si=eJ4fg9g5wFgNt_qD" frameborder="0" allowfullscreen></iframe>
             </div>
