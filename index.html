@@ -34,28 +34,43 @@
         <article id="Kategorie">
           <div>
             <ol id="hoverr">
-              <li><button onclick="changeTube('WKzlh8Ghhqs?si=e2QMNZZ7ekEzXyyo')"><i class="fa-solid fa-desktop"></i><br/>IT·SW</button></li>
-              <li><button onclick="changeTube('-TBzXfrRoi8?si=4KqWvzUnkjqB2jFs')"><i class="fa-solid fa-gears"></i><br/>기계/전기</button></li>
-              <li><button onclick="changeTube('vns-qDK4pk8?si=5jSMxk51KWtpdB4G')"><i class="fa-solid fa-landmark-dome"></i><br/>조경/가구</button></li>
-              <li><button onclick="changeTube('qW9tQgtbPgM?si=57ZOeENN-0PV4YaO')"><i class="fa-solid fa-shirt"></i><br/>디자인/패션</button></li>
-              <li><button onclick="changeTube('dIt_N7yNTgk?si=kQC7urejwajwesDp')"><i class="fa-solid fa-screwdriver-wrench"></i><br/>용접/건축</button></li>
-              <li><button onclick="changeTube('dIt_N7yNTgk?si=kQC7urejwajwesDp')"><i class="fa-solid fa-list-check"></i><br/>경영회계</button></li>
+              <li><button onclick="combinate('WKzlh8Ghhqs?si=e2QMNZZ7ekEzXyyo', txtArr[0])"><i class="fa-solid fa-desktop"></i><br/>IT·SW</button></li>
+              <li><button onclick="combinate('-TBzXfrRoi8?si=4KqWvzUnkjqB2jFs', txtArr[1])"><i class="fa-solid fa-gears"></i><br/>기계/전기</button></li>
+              <li><button onclick="combinate('vns-qDK4pk8?si=5jSMxk51KWtpdB4G', txtArr[2])"><i class="fa-solid fa-landmark-dome"></i><br/>조경/가구</button></li>
+              <li><button onclick="combinate('qW9tQgtbPgM?si=57ZOeENN-0PV4YaO', txtArr[3])"><i class="fa-solid fa-shirt"></i><br/>디자인/패션</button></li>
+              <li><button onclick="combinate('dIt_N7yNTgk?si=kQC7urejwajwesDp', txtArr[4])"><i class="fa-solid fa-screwdriver-wrench"></i><br/>용접/건축</button></li>
+              <li><button onclick="combinate('dIt_N7yNTgk?si=kQC7urejwajwesDp', txtArr[5])"><i class="fa-solid fa-list-check"></i><br/>경영회계</button></li>
             </ol>
             <script>
-              function changeTube(tubeURL) {
-                document.getElementById('boxYoutube').src = 'https://www.youtube.com/embed/' + tubeURL;
+              function combinate(tubeURL, txt){
+                function changeTube(tubeURL) {
+                  document.getElementById('boxYoutube').src = 'https://www.youtube.com/embed/' + tubeURL;
+                }
+
+                function changeTxt(txt) {
+                  document.getElementById('BackText1').innerHTML = txt;
+                }
+
+                changeTube(tubeURL)
+                changeTxt(txt)
               }
+
+              let txtArr = ["<span class='tubeTxt1'>스스로 학습하는<br>습관이 생겼습니다.</span><br><span class='tubeTxt2'>박현호 수료생</span><br><span class='tubeTxt3'>해보고 싶은 게 있을 때,<br>어떻게 시작해야 할지<br>잘 모르겠을 때 시작한다는<br>마음으로 교육을 듣는다면<br>좋을 것 같습니다.</span>", 
+              "<span class='tubeTxt1'>체계적인 과정을<br>통한 실력 양성</span><br><span class='tubeTxt2'>김경섭 수료생</span><br><span class='tubeTxt3'>함께한 동기들과의<br>단합 시간이 가장 기억에<br>남습니다. (중략) 동기들과<br>협동하며 꾸준히 노력한다면 좋은 성과가 반드시<br>있을 것이라고 생각합니다.</span>", 
+              "<span class='tubeTxt1'>NCS를 기반으로 실용적인 지식 학습</span><br><span class='tubeTxt2'>양정우 수료생</span><br><span class='tubeTxt3'>전공자, 비전공자 상관없이<br>아주 기초부터 차근차근<br>단계를 밟아 나가는 수업으로 구성되어 있어 무리없이<br>따라갈 수 있었습니다.</span>", 
+              "<span class='tubeTxt1'>서투른 부분을<br>채워주는 교수님의 피드백</span><br><span class='tubeTxt2'>양현예 수료생</span><br><span class='tubeTxt3'>훈련 초반부터 과제를<br>진행했는데, 미숙한 부분이<br>많았지만 교수님의 지도를<br>받아 즐겁게 작업할 수<br>있었습니다.</span>", 
+              "<span class='tubeTxt1'>먼작귀</span><br><span class='tubeTxt2'>가르마</span><br><span class='tubeTxt3'>뭐야 벌써 아침이네<br>혼잣말을 해<br>구워진 빵에 버터 발라발라<br>비가 그치면 주변이 눅눅해<br>아직 축축해<br>이상한 발자국이 있다고<br>생각했더니<br>어젯밤에 만든 발자국<br></span>", 
+              "<span class='tubeTxt1'>제목</span><br><span class='tubeTxt2'>이름</span><br><span class='tubeTxt3'>내용</span>"];
             </script>
           </div>
         </article>
         <article id="back">
           <article id="job">
             <div id="video-container" class="all">
-              <p id="BackText1">동해물과 백두산이 마르고 닳도록<br>
-                하느님이 보우하사 우리나라 만세<br>
-                무궁화 삼천리 화려 강산<br>
-                대한사람 대한으로 길이 보전하세</p>
-              <img id="videoBack" src="./srcoll/shadow.png">
+              <p class="fontPretendard" id="BackText1"><span class='tubeTxt1'>LEVEL UP!</span><br>
+                <span class="tubeTxt2">영진직업전문학교</span>
+                <span class='tubeTxt3'><br>취준생도 재직자도<br>누구나 배울 수 있는 곳!<br>취업능력UP!<br>실무능력UP!<br>가능성이 UP!<br>직업훈련 기관의 A+<br>영진직업전문학교!</span></p>
+              <!-- <img id="videoBack" src="./srcoll/shadow.png"> -->
               
               <!-- YouTube 영상 추가 -->
               <iframe id="boxYoutube" src="https://www.youtube.com/embed/IycNYCKWIrU?si=eJ4fg9g5wFgNt_qD" frameborder="0" allowfullscreen></iframe>
