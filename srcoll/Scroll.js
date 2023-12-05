@@ -1,14 +1,3 @@
-// 스크롤 배경색상 변경
-// window.addEventListener("scroll", () => {
-//     if (window.scrollY > 550) {
-//         document.body.style.backgroundColor = "rgb(102,178,255)";
-//         document.body.style.color = "white";
-//     } else {
-//         document.body.style.backgroundColor = "white";
-//         document.body.style.color = "black";
-//     }
-// });
-
 // 스크롤 후기 동영상 테두리
 // document.addEventListener('scroll', () => {
 //   let image = document.getElementById('videoBack');
@@ -22,15 +11,15 @@
 // });
 
 // 스크롤 후기 동영상 그림자
-document.addEventListener('scroll', () => {
-  let image = document.getElementById('videoBack');
+// document.addEventListener('scroll', () => {
+//   let image = document.getElementById('videoBack');
 
-  if(window.scrollY > 500) {
-    image.style.opacity = '1';
-  } else {
-    image.style.opacity = '0.5';
-  }
-})
+//   if(window.scrollY > 500) {
+//     image.style.opacity = '1';
+//   } else {
+//     image.style.opacity = '0.5';
+//   }
+// })
 
 
 //스크롤 수강후기 제목 변경
