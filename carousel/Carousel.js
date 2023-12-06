@@ -66,7 +66,7 @@ class InfiniteCarousel {
     this.carousel.style.transform = `translateX(${translateX}px)`;
 
     this.images.forEach((img, i) => {
-      const scaleFactor = (i === this.currentIndex || i === this.currentIndex - 1 || i === this.currentIndex + 1) ? (i === this.currentIndex + 1) ? 1.5 : 0.7 : 0.7;
+      const scaleFactor = (i === this.currentIndex || i === this.currentIndex - 1 || i === this.currentIndex + 1) ? (i === this.currentIndex + 1) ? 1.4 : 0.7 : 0.7;
       img.style.transform = `scale(${scaleFactor})`;
       img.style.position = 'relative'; 
       img.style.zIndex = (i === this.currentIndex + 1) ? 1 : 'auto'; 
