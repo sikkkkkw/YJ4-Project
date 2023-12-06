@@ -69,22 +69,19 @@ body {
 }
 
 #reviewTitle {
-  position: absolute;
-  transform: translateX(-50%);
-  top: 1800px;
-  left: 50%;
+  position: relative;
+  align-items: center;
+  top:30px
 }
 
 #partyTitle {
-  position: absolute;
-  transform: translateX(-50%);
-  top: 2500px;
-  left: 50%;
+  position: relative;
+  align-items: center;
+  top:50px
 }
 
 #onlineTitle {
-  position: absolute;
-  transform: translateX(-50%);
-  top: 2800px;
-  left: 50%;
+  position: relative;
+  align-items: center;
+  top: 30px;
 }
