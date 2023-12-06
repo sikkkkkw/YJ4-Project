@@ -36,9 +36,9 @@ window.onload = function(){
 }
 
 function openLoginPop() {
-  window.open('login.html', '_blank', 'width=460, height=500, top=50, left=50');
+  window.open('./login/login.html', '_blank', 'width=460, height=500, top=50, left=50');
 }
 
 function openSignupPop() {
-  window.open('login.html', '_blank', 'width=460, height=500, top=50, left=50');
+  window.open('./login/signup.html', '_blank', 'width=460, height=500, top=50, left=50');
 }

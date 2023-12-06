@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>로그인</title>
-  <link rel="stylesheet" href="./login.css" />
+  <link rel="stylesheet" href="login.css" />
 </head>
 <body>
   <script type="module" src="login.js"></script>
   <h1>로그인</h1>
   <form>
-    <input class="in" id="LoginInputMail" type="text" name="mail" placeholder="이메일"><br>
-    <input class="in" id="LoginInputPw" type="password" name="password" placeholder="비밀번호"><br>
+    <span class="label">이메일</span><br>
+    <input class="in" id="LoginInputMail" type="text" name="mail" placeholder="abc@email.com"><br>
+    <span class="label">비밀번호</span><br>
+    <input class="in" id="LoginInputPw" type="password" name="password" placeholder="password"><br>
     <input id="LogInSubBtn" class="submit" type="submit" value="로그인"><br>
-    <span>회원가입</span><span style="left: 200px;">아이디&middot;비밀번호 찾기</span>
+    <span class="link">회원가입</span><span class="link" style="left: 200px;">아이디&middot;비밀번호 찾기</span>
   </form> 
 </body>
 </html>
