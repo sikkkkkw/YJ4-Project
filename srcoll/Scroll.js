@@ -26,11 +26,11 @@
 document.addEventListener('scroll', () => {
   let image = document.getElementById('reviewTitle');
 
-  if (window.scrollY > 1090) {
-    image.style.top = '1750px';
+  if (window.scrollY > 950) {
+    image.style.top = '5px';
     image.style.opacity = '1';
   } else {
-    image.style.top = '1800px';
+    image.style.top = '30px';
     image.style.opacity = '0.5';
   }
 });
@@ -39,11 +39,11 @@ document.addEventListener('scroll', () => {
 document.addEventListener('scroll', () => {
   let image = document.getElementById('partyTitle');
 
-  if (window.scrollY > 1550) {
-    image.style.top = '2530px';
+  if (window.scrollY > 1650) {
+    image.style.top = '15px';
     image.style.opacity = '1';
   } else {
-    image.style.top = '2580px';
+    image.style.top = '50px';
     image.style.opacity = '0.5';
   }
 });
@@ -52,11 +52,11 @@ document.addEventListener('scroll', () => {
 document.addEventListener('scroll', () => {
   let image = document.getElementById('onlineTitle');
 
-  if (window.scrollY > 2000) {
-    image.style.top = '2850px';
+  if (window.scrollY > 2100) {
+    image.style.top = '5px';
     image.style.opacity = '1';
   } else {
-    image.style.top = '2900px';
+    image.style.top = '30px';
     image.style.opacity = '0.5';
   }
 });

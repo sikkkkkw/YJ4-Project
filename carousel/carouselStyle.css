@@ -7,7 +7,7 @@
   height: 400px;
   overflow: hidden;
   position: relative;
-  margin-top: 80px;
+  top: 50px;
 }
 
 .carousel {
@@ -49,6 +49,7 @@
   position: relative;
   width: 1060px;
   left: -40%;
+  top:40px
 }
 
 .carousel2 {
