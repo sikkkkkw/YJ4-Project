@@ -4,7 +4,7 @@
 }
 .carouselBox {
   width: 1080px;
-  height: 410px;
+  height: 400px;
   overflow: hidden;
   position: relative;
   margin-top: 80px;
@@ -12,13 +12,8 @@
 
 .carousel {
   display: flex;
-<<<<<<< HEAD
   transition: transform 0.3s ease;
-  margin-top : 50px;
-=======
-  transition: transform 0.8s ease;
-  margin-top : 50px;
->>>>>>> d9d9faf9c4e55892c091e9fceada4a113f90a66e
+  margin-top : 90px;
 }
 
 .carouselBox .carousel img {
@@ -31,8 +26,7 @@
 }
 
 .carousel img:hover {
-  cursor: pointer;
-  border: 3px solid #0071f9;
+  border: 8px solid red;
 }
 
 .prev, .next {
