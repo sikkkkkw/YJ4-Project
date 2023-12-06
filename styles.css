@@ -25,6 +25,13 @@
   color:white;
 }
 
+#scrollAr {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0;}
+        
+@keyframes motion {
+	0% {margin-top: 0px;}
+	100% {margin-top: 8px;}
+}
+
 ol {
   list-style: none;
   padding: 0;
@@ -47,11 +54,11 @@ li {
     margin: 0 -4.5px -1px 0;
     word-break: keep-all;
     width: 150px;
-    height: 120px;
+    height: 100px;
 }
 button{
     width: 147px;
-    height: 115px;
+    height: 95px;
     font-size: 1.2em;
     background: #fff;
     border: none;
@@ -110,7 +117,7 @@ body{
 }
 #Kategorie {
     border: 1px solid black;
-    height: 200px;
+    height: 150px;
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
@@ -118,14 +125,17 @@ body{
 
 #job{
     border: 1px solid black; 
-    height:715px;
+    height:700px;
     width: 1080px; 
     margin-left: auto;
     margin-right: auto; 
 }
+
+#boxYoutube {position: relative; top: 50px;}
+
 #part{
     border: 1px solid black;
-    height:715px;width: 1080px; 
+    height:785px;width: 1080px; 
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -139,7 +149,7 @@ body{
 }
 #online{
     border: 1px solid black;
-    height: 700px;
+    height: 520px;
     width: 1080px; 
     margin-left: auto;
     margin-right: auto;
@@ -148,22 +158,22 @@ body{
 #onlineAsk{
   display: inline-block;
   position: relative;
-  top:-55px;
+  top:-48px;
   padding-left: 20px;
   padding-right: 20px;
   width: 535px;
-  height: 500px;
+  height: 480px;
 }
 
 .onlinebtnTitle{
-  font-size: 25px;
-  line-height: 50px;
+  font-size: 22px;
+  line-height: 45px;
 }
 
 .onlinebtn{
   border: none;
   background-color:#eeeeee;
-  margin: 10px;
+  margin: 6px;
   width: 135px;
   height: 115px;
   display: inline;
@@ -181,8 +191,8 @@ body{
 }
 
 #onlinelongbtn{
-  width: 457px;
-  height: 90px;
+  width: 445px;
+  height: 80px;
 }
 
 #onlinebtnOK{
@@ -194,13 +204,13 @@ body{
   padding-left: 20px;
   padding-right: 20px;
   display: inline-block;
-  margin-top: 130px;
+  margin-top: 20px;
   align-items: center;
 }
 
 .onlineFormTxt{
-  width: 450px;
-  height: 50px;
+  width: 432px;
+  height: 47px;
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -219,8 +229,8 @@ body{
 }
 
 .onlineFormTel{
-  width:124px;
-  height: 50px;
+  width:117px;
+  height: 47px;
   font-size: 20px;
   margin-bottom: 10px;
   margin-left: 10px;
@@ -250,9 +260,8 @@ body{
 
 
 #nobodyReadTitle{
-  font-size: 25px;
-  line-height: 58px;
-  
+  font-size: 22px;
+  line-height: 48px;
 }
 
 #nobodyRead{
@@ -261,8 +270,8 @@ body{
   padding:20px;
   border: 2px solid #bebebe;
   overflow-y: scroll;
-  width: 452px;
-  height: 186px;
+  width: 430px;
+  height: 160px;
   border-radius:10px;
   text-align: left;
 }
@@ -276,9 +285,9 @@ body{
   position: relative;
   top:5px;
   left:125px;
-  width: 200px;
-  height: 53px;
-  font-size: 25px;
+  width: 190px;
+  height: 48px;
+  font-size: 23px;
   border-radius:10px;
   border: none;
   background-color: #59c7f7;

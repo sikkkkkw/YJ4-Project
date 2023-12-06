@@ -71,20 +71,20 @@ body {
 #reviewTitle {
   position: absolute;
   transform: translateX(-50%);
-  top: 1700px;
+  top: 1800px;
   left: 50%;
 }
 
 #partyTitle {
   position: absolute;
   transform: translateX(-50%);
-  top: 2420px;
+  top: 2500px;
   left: 50%;
 }
 
 #onlineTitle {
   position: absolute;
   transform: translateX(-50%);
-  top: 2900px;
+  top: 2800px;
   left: 50%;
 }
