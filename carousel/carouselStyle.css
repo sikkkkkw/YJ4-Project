@@ -13,7 +13,7 @@
 .carousel {
   display: flex;
   transition: transform 0.3s ease;
-  margin-top : 50px;
+  margin-top : 90px;
 }
 
 .carouselBox .carousel img {
