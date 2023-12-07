@@ -56,10 +56,9 @@ body {
 
 #boxYoutube {
   position: absolute;
-  top: 57px;
-  left: 40px;
-  width: 700px;
-  height: 450px;
+  left: 0;
+  width: 1080px;
+  height: 600px;
 }
 
 /* 스크롤 제목 효과*/
