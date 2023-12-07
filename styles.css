@@ -1,7 +1,6 @@
 *{text-align: center; }
 /*Header*/
 #header{
-    border: 1px solid black; 
     background-color: #FFFFFF;
     text-align: center;
 }
@@ -106,7 +105,6 @@ video {
   color: #ffffff;
 }
 iframe{
-  border: 1px solid black; 
   border-radius: 5px;
 }
 
@@ -115,7 +113,6 @@ body{
     overflow-x: hidden;
 }
 #Kategorie {
-  border: 1px solid black;
   height: 150px;
   width: 1080px;
   margin-left: auto;
@@ -124,7 +121,6 @@ body{
 }
 
 #job{
-  border: 1px solid black; 
   height:770px;
   width: 1080px; 
   margin-left: auto;
@@ -136,7 +132,6 @@ body{
 }
 
 #part{
-  border: 1px solid black;
   height:930px;width: 1080px; 
   margin-left: auto;
   margin-right: auto;
