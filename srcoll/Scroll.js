@@ -27,7 +27,7 @@ document.addEventListener('scroll', () => {
   let image = document.getElementById('reviewTitle');
 
   if (window.scrollY > 950) {
-    image.style.top = '5px';
+    image.style.top = '10px';
     image.style.opacity = '1';
   } else {
     image.style.top = '30px';

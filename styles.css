@@ -56,6 +56,7 @@ ol {
   width: 150px;
   height: 100px;
   border-radius: 10px;
+
 }
 button{
   width: 147px;
@@ -119,11 +120,12 @@ body{
   width: 1080px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 #job{
   border: 1px solid black; 
-  height:700px;
+  height:600px;
   width: 1080px; 
   margin-left: auto;
   margin-right: auto; 
