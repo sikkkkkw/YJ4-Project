@@ -131,7 +131,10 @@ body{
   margin-right: auto; 
 }
 
-#boxYoutube {position: relative; top: 50px;}
+#boxYoutube {
+  position: relative; 
+  top: 50px;
+}
 
 #part{
   border: 1px solid black;
