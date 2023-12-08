@@ -27,7 +27,7 @@
 }
 
 .carousel img:hover {
-  border: 8px solid red;
+  border: 8px solid #0071f9;
 }
 
 .prev, .next {
