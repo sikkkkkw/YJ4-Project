@@ -14,6 +14,7 @@
     <script src="https://kit.fontawesome.com/7fe8e71161.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div id="back1"></div>
   <script src="./srcoll/Scroll.js"></script>
   <span class="scrollSection">
    <header id="header">
@@ -61,12 +62,12 @@
                 changeTxt(txt)
               }
 
-              let txtArr = ["<span class='tubeTxt1'>스스로 학습하는 습관 생성</span><br><span class='tubeTxt2'>박현호 수료생</span><br><span class='tubeTxt3'>해보고 싶은 게 있을 때, 어떻게 시작해야 할지 잘 모르겠을 때 시작한다는 마음으로 교육을 듣는다면 좋을 것 같습니다.</span>", 
-              "<span class='tubeTxt1'>체계적인 과정을 통한 실력 양성</span><br><span class='tubeTxt2'>김경섭 수료생</span><br><span class='tubeTxt3'>함께한 동기들과의 단합 시간이 가장 기억에 남습니다. (중략) 동기들과 협동하며 꾸준히 노력한다면 좋은 성과가 반드시 있을 것이라고 생각합니다.</span>", 
-              "<span class='tubeTxt1'>NCS를 기반으로 실용적인 지식 학습</span><br><span class='tubeTxt2'>양정우 수료생</span><br><span class='tubeTxt3'>전공자, 비전공자 상관없이 아주 기초부터 차근차근 단계를 밟아 나가는 수업으로 구성되어 있어 무리없이 따라갈 수 있었습니다.</span>", 
-              "<span class='tubeTxt1'>서투른 부분을 채워주는 교수님의 피드백</span><br><span class='tubeTxt2'>양현예 수료생</span><br><span class='tubeTxt3'>훈련 초반부터 과제를 진행했는데, 미숙한 부분이 많았지만 교수님의 지도를 받아 즐겁게 작업할 수 있었습니다.</span>", 
-              "<span class='tubeTxt1'>실무중심 체계적인 커리큘럼</span><br><span class='tubeTxt2'>이원도 수료생</span><br><span class='tubeTxt3'>길다면 길고 짧다면 짧은 훈련 교육기간 동안 힘든 시간을 좋은 교수진과 동료들의 응원 통해 성공적 으로 수료하게 되어 기쁩니다.</span>", 
-              "<span class='tubeTxt1'>함께 실무역량을 갖기를 원하는 분들께 적극추천</span><br><span class='tubeTxt2'>공혜진 수료생</span><br><span class='tubeTxt3'>개인적으로는 힘들었지만 성장할 수 있었던 시간이라고 생각하고 회계와 세무의 전문지식을 기룰 수 있어서 유익한 시간이었습니다.</span>"];
+              let txtArr = ["<span class='tubeTxt1'>스스로 학습하는 습관 생성</span><br><span class='tubeTxt2'>박현호 수료생</span><br><span class='tubeTxt3'>해보고 싶은 게 있을 때, 어떻게 시작해야 할지 잘 모르겠을 때 시작한다는 마음으로<br>교육을 듣는다면 좋을 것 같습니다.</span>", 
+              "<span class='tubeTxt1'>체계적인 과정을 통한 실력 양성</span><br><span class='tubeTxt2'>김경섭 수료생</span><br><span class='tubeTxt3'>함께한 동기들과의 단합 시간이 가장 기억에 남습니다. (중략)<br>동기들과 협동하며 꾸준히 노력한다면 좋은 성과가 반드시 있을 것이라고 생각합니다.</span>", 
+              "<span class='tubeTxt1'>NCS를 기반으로 실용적인 지식 학습</span><br><span class='tubeTxt2'>양정우 수료생</span><br><span class='tubeTxt3'>전공자, 비전공자 상관없이 아주 기초부터 차근차근 단계를 밟아 나가는 수업으로 구성되어 있어<br>무리없이 따라갈 수 있었습니다.</span>", 
+              "<span class='tubeTxt1'>서투른 부분을 채워주는 교수님의 피드백</span><br><span class='tubeTxt2'>양현예 수료생</span><br><span class='tubeTxt3'>훈련 초반부터 과제를 진행했는데, 미숙한 부분이 많았지만<br>교수님의 지도를 받아 즐겁게 작업할 수 있었습니다.</span>", 
+              "<span class='tubeTxt1'>실무중심 체계적인 커리큘럼</span><br><span class='tubeTxt2'>이원도 수료생</span><br><span class='tubeTxt3'>길다면 길고 짧다면 짧은 훈련 교육기간 동안 힘든 시간을<br>좋은 교수진과 동료들의 응원 통해 성공적 으로 수료하게 되어 기쁩니다.</span>", 
+              "<span class='tubeTxt1'>함께 실무역량을 갖기를 원하는 분들께 적극추천</span><br><span class='tubeTxt2'>공혜진 수료생</span><br><span class='tubeTxt3'>개인적으로는 힘들었지만 성장할 수 있었던 시간이라고 생각하고<br>회계와 세무의 전문지식을 기룰 수 있어서 유익한 시간이었습니다.</span>"];
 
               function openLoginPop() {
                   window.open('./login/login.html', '_blank', 'width=460, height=500, top=50, left=50');
@@ -81,9 +82,9 @@
         <article id="back">
           <article id="job">
             <div id="video-container" class="all">
-              <p class="fontPretendard" id="BackText1"><span class='tubeTxt1'>LEVEL UP!</span>
-                <span class="tubeTxt2">&nbsp;영진직업전문학교</span>
-                <span class='tubeTxt3'>취준생도 재직자도 누구나 배울 수 있는 곳! 취업능력 UP! 실무능력 UP! 가능성이 UP! 직업훈련 기관의 A+ 영진직업전문학교!</span></p>
+              <p class="fontPretendard" id="BackText1"><span class='tubeTxt1'>LEVEL UP!<br></span>
+                <span class="tubeTxt2">&nbsp;영진직업전문학교<br></span>
+                <span class='tubeTxt3'>취준생도 재직자도 누구나 배울 수 있는 곳! 취업능력 UP! 실무능력 UP! 가능성이 UP!<br>직업훈련 기관의 A+ 영진직업전문학교!</span></p>
              
               <!-- YouTube 영상 추가 -->
               <iframe id="boxYoutube" src="https://www.youtube.com/embed/IycNYCKWIrU?si=eJ4fg9g5wFgNt_qD" frameborder="0" allowfullscreen></iframe>
@@ -91,36 +92,38 @@
           </article>
         </article>
       </span>
+      <span class="scrollSection">
         <article>
         <span class="scrollSection">
-        <div id="part">
-          <img class="aniTitle" id="reviewTitle" src="./srcoll/review.png"/>
-          <div class="carouselBox">
-           <div class="carousel">
-             <img src="./carousel/eximage1.png"alt="" />
-             <img src="./carousel/eximage2.png"alt=""  />
-             <img src="./carousel/eximage3.png"alt="" />
-             <img src="./carousel/eximage4.png"alt="" >
-             <img src="./carousel/eximage5.png"alt="" />
-             <img src="./carousel/eximage6.png"alt="">
-             <img src="./carousel/eximage7.png"alt=""/>
-             <img src="./carousel/eximage8.png"alt="">
-             <img src="./carousel/eximage9.png"alt=""/>
-           </div>
-         </div> 
-         <script src="./carousel/Carousel.js"></script>
-          <div class="reviewBottomTxt">
-            <ul>
-              <li><span class="reviewBottomTxtBig">시각디자인 산업기사</span><br><span class="reviewBottomTxtName">이상훈 수료생</span><br><hr><span class="reviewBottomTxtSmall">6개월이란 기간동안 정말 많은 것을 배울 수 있었습니다.<br>
-                아마 이 곳이 아니었다면 취직이 힘들었을것이라는 생각이 듭니다</span></li>
-              <li><span class="reviewBottomTxtBig">시각디자인 산업기사</span><br><span class="reviewBottomTxtName">엄유진 수료생</span><br><hr><span class="reviewBottomTxtSmall">6개월 과정이 길었지만 
-                그 짧은 시간 동안 여러가지를 배울 수 있어서 좋았고, 학교에서 여러 도움을 받았던 터라 고마운 마음이 큽니다.</span></li>
-              <li><span class="reviewBottomTxtBig">시각디자인 산업기사</span><br><span class="reviewBottomTxtName">장금용 수료생</span><br><hr><span class="reviewBottomTxtSmall">영진직업전문학교가 취업률도 높고, 디자인에 대한 전문적인 지식을 습득할 수 <br>
-                있을 것 같아 지원하게 했었습니다.</span></li>
-            </ul>
-          </div>
+        <div id="part">        
+            <img class="aniTitle" id="reviewTitle" src="./srcoll/review.png"/>
+            <div class="carouselBox">
+            <div class="carousel">
+              <img src="./carousel/eximage1.png"alt="" />
+              <img src="./carousel/eximage2.png"alt=""  />
+              <img src="./carousel/eximage3.png"alt="" />
+              <img src="./carousel/eximage4.png"alt="" >
+              <img src="./carousel/eximage5.png"alt="" />
+              <img src="./carousel/eximage6.png"alt="">
+              <img src="./carousel/eximage7.png"alt=""/>
+              <img src="./carousel/eximage8.png"alt="">
+              <img src="./carousel/eximage9.png"alt=""/>
+            </div>   
+          </div> 
+          <script src="./carousel/Carousel.js"></script>
+            <div class="reviewBottomTxt">
+              <ul>
+                <li><span class="reviewBottomTxtBig">시각디자인 산업기사</span><br><span class="reviewBottomTxtName">이상훈 수료생</span><br><hr><span class="reviewBottomTxtSmall">6개월이란 기간동안 정말 많은 것을 배울 수 있었습니다.<br>
+                  아마 이 곳이 아니었다면 취직이 힘들었을것이라는 생각이 듭니다</span></li>
+                <li><span class="reviewBottomTxtBig">시각디자인 산업기사</span><br><span class="reviewBottomTxtName">엄유진 수료생</span><br><hr><span class="reviewBottomTxtSmall">6개월 과정이 길었지만 
+                  그 짧은 시간 동안 여러가지를 배울 수 있어서 좋았고, 학교에서 여러 도움을 받았던 터라 고마운 마음이 큽니다.</span></li>
+                <li><span class="reviewBottomTxtBig">시각디자인 산업기사</span><br><span class="reviewBottomTxtName">장금용 수료생</span><br><hr><span class="reviewBottomTxtSmall">영진직업전문학교가 취업률도 높고, 디자인에 대한 전문적인 지식을 습득할 수 <br>
+                  있을 것 같아 지원하게 했었습니다.</span></li>
+              </ul>
+            </div> 
          </div>
         </span>
+
         <span class="scrollSection">
          <div id ="party">
           <img class="aniTitle" id="partyTitle" src="./srcoll/party.png"/>  
