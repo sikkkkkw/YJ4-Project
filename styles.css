@@ -132,14 +132,15 @@ body{
 }
 
 #part{
-  height:930px;width: 1080px; 
+  height:930px; 
+  width: 1080px; 
   margin-left: auto;
   margin-right: auto;
 }
 
 .reviewBottomTxt{
   position: relative;
-  top:100px;
+  top:70px;
   list-style-type: none;
 }
 
@@ -378,6 +379,16 @@ body{
   height: 100%;
   margin-left: auto;
   margin-right: auto; 
+}
+#back1{
+  top:2120px;
+  background-image: url(./images/color/후보4.jpg);
+  width: 100%;
+  height: 395px;
+  float: left;
+  position: absolute;
+
+  
 }
 #main{
   font-family: 'Pretendard-Regular';
