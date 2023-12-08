@@ -150,13 +150,15 @@ body{
 .reviewBottomTxt li {
   width: 290px;
   height: 250px;
-  border: 1px solid black;
+  border: 3px solid #609fe2;
   list-style: none;
   position: relative;
   top: -30px;
   display: inline-block;
   margin-left: 15px;
   margin-right: 15px;
+  border-radius: 20px;
+  background-color: #bdd9fa;
 }
 
 .reviewBottomTxtBig {
