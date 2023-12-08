@@ -6,6 +6,14 @@ function checkScrollPosition() {
     } else {
         gotoTopButton.style.display = 'none';
     }
+    let gotoMission = document.getElementById('open');
+
+    if(window.scrollY > 20 || document.documentElement.scrollTop > 20) {
+        gotoMission.style.display = 'block';
+    } 
+    else {
+        gotoMission.style.display = 'none';
+    }
 }
 
 // 초기에 한 번 호출
