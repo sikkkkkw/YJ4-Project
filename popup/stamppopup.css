@@ -133,7 +133,7 @@
   right: 15px;
   bottom: 30px;
   border-radius: 10px;
-  background-color: rgba(22, 4, 4, 0.5);
+  background-color: rgba(22, 4, 4, 0.5 0.9);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transition: background-color 0.3s ease-in-out, transform 0.4s ease-in-out;
@@ -152,19 +152,21 @@
   height: 60px;
   right: 15px;
   padding-top : 15px;
-  bottom: 190px;
-  border-radius: 10px;
-  background-color: rgba(22, 4, 4, 0.5);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  bottom: 220px;
+  font-size: 35px;
+  /* border-radius: 10px; */
+  /* background-color: rgba(22, 4, 4, 0.5); */
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
   cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.5s;
   transition: background-color 0.3s ease-in-out, transform 0.4s ease-in-out;
   font-family: 'yg-jalnan';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
 }
 #open:hover {
-  background-color: rgba(41, 128, 185, 0.7);
-  transform: scale(1.0.9);
-  border-radius: 15px;
+  opacity: 1;
+  
 }
 #stampButton div a { 
   text-decoration: none;
@@ -175,6 +177,7 @@
   background-color: rgba(41, 128, 185, 0.7);
   transform: scale(1.0.9);
   border-radius: 15px;
+
 }
 
 #eventpage {
@@ -182,7 +185,7 @@
   background-color: skyblue;
   border-radius: 15px;
   font-size: 17px;
-  width: 200px;
+  width: 180px;
   height: 40px;
   margin-top: 10px;
   font-family: 'yg-jalnan';

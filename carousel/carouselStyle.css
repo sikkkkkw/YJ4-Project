@@ -20,6 +20,7 @@
 .carouselBox .carousel img {
   width: 360px;
   height: 250px;
+  transition: all 0.5s;
 }
 
 .carouselBox .carousel img.active {
