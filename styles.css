@@ -160,15 +160,20 @@ body{
   border-radius: 20px;
   background-color: #bdd9fa;
 }
-
+.reviewBottomTxtBig, .reviewBottomTxtName, .reviewBottomTxtSmall{
+  font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+}
 .reviewBottomTxtBig {
   font-size: 25px;
   word-break: keep-all;
+  line-height: 1.5;
 }
 
 .reviewBottomTxtSmall {
   font-size: 20px;
   word-break: keep-all;
+  line-height: 1.5;
 }
 
 #party{
@@ -387,11 +392,9 @@ body{
   top:2120px;
   background-image: url(./images/color/후보4.jpg);
   width: 100%;
-  height: 395px;
+  height: 400px;
   float: left;
   position: absolute;
-
-  
 }
 #main{
   font-family: 'Pretendard-Regular';
