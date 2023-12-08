@@ -110,7 +110,6 @@ iframe{
 /*Section*/
 body{
     overflow-x: hidden;
-    background-color: #eeeeee;
     z-index: -1;
     
 }
@@ -339,7 +338,7 @@ body{
 #footer{
   border: 1px solid #ececec; 
   height: 230px; 
-  background-color: #000000;
+  background-color: #ececec;
 }
 #prr{
     text-align: left;
