@@ -118,12 +118,12 @@ header {
 .circleTxt {
   position: absolute;
   top: 700px;
-  font-size: 30px;
+  font-size: 30PX;
 }
 
-#circleTxt1 {left: 575px;}
+#circleTxt1 {left: 555px;}
 #circleTxt2 {left: 50%; transform: translateX(-50%);}
-#circleTxt3 {left: 1165px;}
+#circleTxt3 {left: 1135px;}
 
 .btnGo {
   position: absolute;
