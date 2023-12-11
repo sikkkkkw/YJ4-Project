@@ -395,8 +395,9 @@ body{
   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
 }
 #back{
-  background-image: url(./images/color/후보3.jpg);
+  background-image: url(./images/color/후보6.jpg);
   background-size: auto;
+  width: 1960px;
   height: -900px;
   margin-left: auto;
   margin-right: auto; 
