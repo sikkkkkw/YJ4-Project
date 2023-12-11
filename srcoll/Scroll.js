@@ -39,7 +39,7 @@ document.addEventListener('scroll', () => {
 document.addEventListener('scroll', () => {
   let image = document.getElementById('partyTitle');
 
-  if (window.scrollY > 1650) {
+  if (window.scrollY > 2400) {
     image.style.top = '15px';
     image.style.opacity = '1';
   } else {

@@ -115,7 +115,7 @@ body{
     
 }
 #Kategorie {
-  height: 150px;
+  height: 100px;
   width: 1080px;
   margin-left: auto;
   margin-right: auto;
@@ -152,6 +152,9 @@ body{
 .reviewBottomTxt li {
   width: 290px;
   height: 250px;
+  box-sizing: content-box;
+  word-break: keep-all;
+  padding: 10px;
   border: 3px solid #609fe2;
   list-style: none;
   position: relative;
