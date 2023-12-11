@@ -51,9 +51,10 @@ ol {
   line-height: 2;
   margin: 0 -4.5px -1px 0;
   word-break: keep-all;
-  width: 150px;
+  width: 175px;
   height: 100px;
   border-radius: 10px;
+  margin-left: 4px;
 
 }
 button{
@@ -69,7 +70,7 @@ button{
 #hoverr li:hover{
   color: #106aca;
   border-bottom: 3px solid #106aca;    
-  width: 150px;
+  width: 175px;
 }
 #hoverr button{
   border-radius: 10px;
@@ -184,6 +185,9 @@ body{
   margin-right: auto;
 }
 #online{
+  /* border: 0px solid #eeeeee;
+  box-shadow: 10px 10px 20px rgba(0.0, 0.1., 0.1, 0); */
+  border-radius: 15px;
   height: 600px;
   width: 1080px; 
   margin-left: auto;
@@ -333,6 +337,10 @@ body{
   cursor: pointer;
   background-color: #106aca;
 }
+/* #onlineTitle{
+  position:relative;
+  top: -55px;
+} */
 
 /*Footer*/
 #footer{
@@ -385,18 +393,20 @@ body{
 }
 #back{
   background-image: url(./images/color/후보3.jpg);
-  height: 100%;
+  background-size: auto;
+  height: -900px;
   margin-left: auto;
   margin-right: auto; 
 }
 #back1{
-  top:2120px;
+  top:2060px;
   background-image: url(./images/color/후보4.jpg);
   width: 100%;
-  height: 400px;
+  height:869px;
   float: left;
   position: absolute;
 }
+
 #main{
   font-family: 'Pretendard-Regular';
   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
