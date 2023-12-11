@@ -161,12 +161,32 @@ body{
   background-color: #bdd9fa;
 }
 
-.reviewBottomTxtBig {
+.reviewBottomTxtBig1 {
   font-size: 25px;
   word-break: keep-all;
 }
 
-.reviewBottomTxtSmall {
+.reviewBottomTxtSmall1 {
+  font-size: 20px;
+  word-break: keep-all;
+}
+
+.reviewBottomTxtBig2 {
+  font-size: 25px;
+  word-break: keep-all;
+}
+
+.reviewBottomTxtSmall2 {
+  font-size: 20px;
+  word-break: keep-all;
+}
+
+.reviewBottomTxtBig3 {
+  font-size: 25px;
+  word-break: keep-all;
+}
+
+.reviewBottomTxtSmall3 {
   font-size: 20px;
   word-break: keep-all;
 }
