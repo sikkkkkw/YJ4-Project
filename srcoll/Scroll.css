@@ -23,10 +23,9 @@ body {
   text-align: center;
   position: relative;
   float:inline-end;
-  top: 595px;
+  top: 599px;
   border-radius: 10px;
-  right: 80px;
-  width: 900px;
+  width: 1080px;
   height: 130px;
   background-image: url("../images/color/후보4.jpg");
 }

@@ -3,18 +3,18 @@
   position:fixed;
   top:0;
   left:0;
-  z-index: 10000; 
+  z-index: 100; 
   width: 100%; 
   height: 100%; 
   background-color: rgba(0, 0, 0, 0.4); 
 }
 .stamp_box {
   position: relative;
-  top:10px;
-  left:10px; 
+  top:30px;
+  left:30px; 
   overflow: auto; 
-  height: 900px; 
-  width: 800px;
+  height: 500px; 
+  width: 600px;
 
   overflow-x: hidden;
   overflow-y: hidden;
@@ -29,13 +29,13 @@
   height : 30px;
   width : 800px;
   float : top;
-  padding-left: 770px;
+  padding-left: 360px;
   
 }
 
 /* 이벤트 창 팝업 레이어 스타일 */
 .stamp_box{
-  background-image: url(popupBack.png);
+  background-image: url(popupBack2.png);
 }
 
 .stamp_box .stamp_cont {
@@ -43,76 +43,6 @@
   height: 700px;
   margin-left :auto;
   margin-right :auto;
-}
-
-.stamp_box .stamp_cont h1 {
-  font-size: 40px;
-  margin-top: -5px;
-  color: black;
-}
-
-.stamp_box .stamp_cont div {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-left: 15px;
-  margin-right : 15px;
-  margin-top: 10px;
-  color : #1c7cfe;
-  font-size: 20px;
-  background-color: #ffffff;
-}
-.stamp_box .stamp_cont h3 {
-  margin-bottom: -5px;
-}
-.stamp_box .stamp_cont ol {
-  list-style-type: decimal;   
-}
-.stamp_box .stamp_cont li {
-  margin-left: 80px;
-  display: list-item;
-  border: 0px;
-  width: 500px;
-  height: 30px;
-  text-align: left;
-  color : black ;
-  font-weight: 900;
-  margin-top : 15px;
-  font-size: 20px;
-}
-#ex {
-  border-top: 30px solid #1c7cfe;
-  width : 600px;
-  height: 230px;
-  border-radius: 30px;
-}
-#ex2 {
-  margin-top: 20px;
-  width: 340px;
-  height: 180px;
-  font-family: 'yg-jalnan';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); 
-}
-#ex2 p{
-  text-align: left;
-  color : black;
-  font-weight: 900;
-  margin-top: -5px;  
-}
-#e {
-  border-top :30px solid #1c7cfe;
-  border-radius: 30px;
-  width: 600px;
-  height: 210px;
-  margin-bottom: 5px;
-  margin-top : 35px; 
-}
-#e li{
-  margin-left:140px;
-  text-align: left;
-  font-family: 'yg-jalnan';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
 }
 
 #overlay {
@@ -133,7 +63,7 @@
   right: 15px;
   bottom: 30px;
   border-radius: 10px;
-  background-color: rgba(22, 4, 4, 0.5);
+  background-color: rgba(22, 4, 4, 0.5 0.9);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transition: background-color 0.3s ease-in-out, transform 0.4s ease-in-out;
@@ -152,19 +82,21 @@
   height: 60px;
   right: 15px;
   padding-top : 15px;
-  bottom: 190px;
-  border-radius: 10px;
-  background-color: rgba(22, 4, 4, 0.5);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  bottom: 220px;
+  font-size: 35px;
+  /* border-radius: 10px; */
+  /* background-color: rgba(22, 4, 4, 0.5); */
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
   cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.5s;
   transition: background-color 0.3s ease-in-out, transform 0.4s ease-in-out;
   font-family: 'yg-jalnan';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
 }
 #open:hover {
-  background-color: rgba(41, 128, 185, 0.7);
-  transform: scale(1.0.9);
-  border-radius: 15px;
+  opacity: 1;
+  
 }
 #stampButton div a { 
   text-decoration: none;
@@ -175,24 +107,41 @@
   background-color: rgba(41, 128, 185, 0.7);
   transform: scale(1.0.9);
   border-radius: 15px;
+
 }
 
 #eventpage {
-  border: 2px solid darkblue;
-  background-color: skyblue;
+  border: 2px solid #106aca;
+  background-color: rgb(255, 255, 255);
   border-radius: 15px;
-  font-size: 17px;
-  width: 200px;
+  font-size: 19px;
+  width: 180px;
   height: 40px;
   margin-top: 10px;
-  font-family: 'yg-jalnan';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: bold;
+  font-family: 'Pretendard-Regular';
   transition: background-color 0.3s ease; /* 부드러운 색 변화를 위한 트랜지션 추가 */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
   text-align: center; /* 텍스트 중앙 정렬 */
   line-height: 35px; /* 텍스트 수직 중앙 정렬 */
+  position: absolute;
+  top:410px;left: 35%;
 }
 
 #eventpage:hover {
-  background-color: #1c7cfe;
+  cursor: pointer;
+}
+
+#stampPopup_text{
+  position: absolute;
+  top:203px;left: 19%;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Pretendard-Regular'
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
