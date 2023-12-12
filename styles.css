@@ -165,6 +165,11 @@ body{
   border-radius: 20px;
   background-color: #bdd9fa;
 }
+.reviewBottomTxtBig1 {
+  font-size: 25px;
+  word-break: keep-all;
+  line-height: 1.5;
+}
 .reviewBottomTxtBig, .reviewBottomTxtName, .reviewBottomTxtSmall{
   font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
@@ -175,7 +180,27 @@ body{
   line-height: 1.5;
 }
 
-.reviewBottomTxtSmall {
+.reviewBottomTxtSmall1 {
+  font-size: 20px;
+  word-break: keep-all;
+}
+
+.reviewBottomTxtBig2 {
+  font-size: 25px;
+  word-break: keep-all;
+}
+
+.reviewBottomTxtSmall2 {
+  font-size: 20px;
+  word-break: keep-all;
+}
+
+.reviewBottomTxtBig3 {
+  font-size: 25px;
+  word-break: keep-all;
+}
+
+.reviewBottomTxtSmall3 {
   font-size: 20px;
   word-break: keep-all;
   line-height: 1.5;
@@ -391,8 +416,9 @@ body{
   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
 }
 #back{
-  background-image: url(./images/color/후보3.jpg);
+  background-image: url(./images/color/후보6.jpg);
   background-size: auto;
+  width: 1960px;
   height: -900px;
   margin-left: auto;
   margin-right: auto; 
