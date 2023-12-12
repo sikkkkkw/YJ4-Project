@@ -125,23 +125,23 @@
         </article >
         <div style="height: 40px;"></div>
         <article id = "online">
-          <form>
+          <form id="form" onsubmit="test(event)">
           <img class="aniTitle" id="onlineTitle" src="./srcoll/online.png"/>
           <div id="onlineAsk" class="fontPretendard">
             <span class="onlinebtnTitle">관심학과를 골라주세요.</span><br>
-            <input type="radio" name="Ask" id='IT &middot SW'><label for="IT &middot SW">IT &middot SW</label>
-            <input type="radio" name="Ask" id='전기/기계'><label for="전기/기계">전기/기계</label>
-            <input type="radio" name="Ask" id='조경/가구'><label for="조경/가구">조경/가구</label>
-            <input type="radio" name="Ask" id='디자인/패션'><label for="디자인/패션">디자인/패션</label>
-            <input type="radio" name="Ask" id='용접/건축'><label for="용접/건축">용접/건축</label>
-            <input type="radio" name="Ask" id='경영회계'><label for="경영회계">경영회계</label>
-            <input type="radio" name="Ask" id='dunno'><label style="width: 445px;height: 85px;line-height: 80px;margin-bottom: 10px;" for='dunno'>잘 모르겠어요</label><br>
+            <input type="radio" name="Ask" id='IT &middot SW' value="IT/SW"><label for="IT &middot SW">IT &middot SW</label>
+            <input type="radio" name="Ask" id='전기/기계' value="전기/기계"><label for="전기/기계">전기/기계</label>
+            <input type="radio" name="Ask" id='조경/가구' value="조경/가구"><label for="조경/가구">조경/가구</label>
+            <input type="radio" name="Ask" id='디자인/패션' value="디자인/패션"><label for="디자인/패션">디자인/패션</label>
+            <input type="radio" name="Ask" id='용접/건축'  value="용접/건축"><label for="용접/건축">용접/건축</label>
+            <input type="radio" name="Ask" id='경영회계' value="경영회계" ><label for="경영회계">경영회계</label>
+            <input type="radio" name="Ask" id='dunno' value="none"><label style="width: 445px;height: 85px;line-height: 80px;margin-bottom: 10px;" for='dunno'>잘 모르겠어요</label><br>
             <span id="onlinebtnOK">몰라도 괜찮아요! 영진이 도와드립니다.</span>
           </div>
           <div id="onlineForm">
             <label class="onlinebtnTitle fontPretendard">이름과 연락처를 알려주세요.</label><br>
-            <input class="onlineFormTxt" maxlength="5" type = "text" placeholder="이름"/><br>
-            <input class="onlineFormTxt" maxlength="11" type = "tel" placeholder="숫자만 입력해주세요"/><br>
+            <input class="onlineFormTxt" maxlength="5" type = "text" placeholder="이름" id ="userName"/><br>
+            <input class="onlineFormTxt" maxlength="11" type = "tel" placeholder="숫자만 입력해주세요" id="userPhone"/><br>
             <span id="nobodyReadTitle" class="fontPretendard">개인정보수집 및 이용에 대한 동의<br></span>
             <div id="nobodyRead" class="fontPretendard">
               영진직업전문학교가 운영하는 웹&모바일 사이트에<br>대하여 상담 및 이용자가 원하는 서비스를 충족시키기 위해<br>아래와 같은 개인정보를 수집하고 있습니다.<br><br>
@@ -165,6 +165,7 @@
             <label for="ckbx"><input id="ckbx" class="fontPretendard" type="checkbox" style="margin: 15px;">개인정보수집 및 이용에 동의합니다.</label><br>
             <input id="onlineSubmit" type="submit" value="상담신청">
           </form>
+          <script src="online.js"></script>
         </div>
         </article>
     </section>
