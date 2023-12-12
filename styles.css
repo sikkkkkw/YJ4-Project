@@ -165,16 +165,13 @@ body{
   border-radius: 20px;
   background-color: #bdd9fa;
 }
-<<<<<<< HEAD
-
 .reviewBottomTxtBig1 {
-=======
+}
 .reviewBottomTxtBig, .reviewBottomTxtName, .reviewBottomTxtSmall{
   font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
 }
 .reviewBottomTxtBig {
->>>>>>> 0f33cfb4240213ec177c673e765274a58871076f
   font-size: 25px;
   word-break: keep-all;
   line-height: 1.5;
