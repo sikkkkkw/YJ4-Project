@@ -28,7 +28,8 @@
 }
 
 .carousel img:hover {
-  border: 8px solid #0071f9;
+  transition: all 0.1s;
+  border: 5px solid rgba(255,255,255,0);
 }
 
 .prev, .next {

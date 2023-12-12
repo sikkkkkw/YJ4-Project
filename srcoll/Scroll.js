@@ -39,7 +39,7 @@ document.addEventListener('scroll', () => {
 document.addEventListener('scroll', () => {
   let image = document.getElementById('partyTitle');
 
-  if (window.scrollY > 2400) {
+  if (window.scrollY > 1500) {
     image.style.top = '15px';
     image.style.opacity = '1';
   } else {
@@ -52,7 +52,7 @@ document.addEventListener('scroll', () => {
 document.addEventListener('scroll', () => {
   let image = document.getElementById('onlineTitle');
 
-  if (window.scrollY > 2100) {
+  if (window.scrollY > 2500) {
     image.style.top = '5px';
     image.style.opacity = '1';
   } else {
