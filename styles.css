@@ -166,6 +166,9 @@ body{
   background-color: #bdd9fa;
 }
 .reviewBottomTxtBig1 {
+  font-size: 25px;
+  word-break: keep-all;
+  line-height: 1.5;
 }
 .reviewBottomTxtBig, .reviewBottomTxtName, .reviewBottomTxtSmall{
   font-family: 'Pretendard-Regular';
