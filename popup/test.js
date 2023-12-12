@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
     // 1분(60,000밀리초) 후에 팝업을 띄우기 위해 setTimeout 사용
-    setTimeout(function() {
         let pop = document.getElementById("stamp_layer");
         pop.style.display = "block";
-    }, 60000); // 1분 후에 실행
 });
 
 // 나머지 코드는 그대로 유지
