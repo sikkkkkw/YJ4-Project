@@ -393,14 +393,18 @@ body{
   margin-right: auto; 
 }
 #back1{
-  top:2160px;
-  background-image: url(./images/color/후보4.jpg);
+  top:2100px;
+  background-image: url(./images/color/후보7.jpg);
   width: 100%;
   height:769px;
   float: left;
   position: absolute;
 }
-
+#stamp_layer {
+  /* Define your styles for the stamp_layer */
+  display: none;
+  /* Add other styles as needed */
+}
 #main{
   font-family: 'SEBANG_Gothic_Bold';
   font-size: 60px;
