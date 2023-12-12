@@ -290,37 +290,6 @@ body{
   outline: 1px solid #59c7f7;
 }
 
-.onlineFormTel{
-  width:117px;
-  height: 47px;
-  font-size: 20px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-align: left;
-  padding:10px;
-  border-radius:10px;
-  border: 2px solid #bebebe
-}
-
-.onlineFormTel-- {
-  font-size: 20px;
-
-}
-
-.onlineFormTel > option {
-  text-align: left;
-}
-
-.onlineFormTel:hover{
-  border: 2px solid #59c7f7;
-}
-
-.onlineFormTel:focus{
-  outline: 1px solid #59c7f7;
-}
-
-
 #nobodyReadTitle{
   font-size: 22px;
   line-height: 48px;
