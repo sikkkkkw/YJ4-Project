@@ -207,34 +207,30 @@ body{
   height: 480px;
 }
 
-.onlinebtnTitle{
-  font-size: 22px;
-  line-height: 45px;
+#onlineAsk input[type=radio] {display: none;}
+#onlineAsk input[type=radio]:checked+label{
+  background-color:#59c7f7;
 }
 
-.onlinebtn{
-  border: none;
-  background-color:#eeeeee;
+#onlineAsk label {
   margin: 6px;
   width: 135px;
   height: 115px;
-  display: inline;
+  display: inline-block;
   border-radius:20px;
   font-size: 17px;
+  line-height: 115px;
+  background-color:#eeeeee;
 }
 
-.onlinebtn:hover{
+#onlineAsk label:hover{
   cursor: pointer;
   font-weight: bold;
 }
 
-.onlinebtn:focus{
-  background-color:#59c7f7;
-}
-
-#onlinelongbtn{
-  width: 445px;
-  height: 80px;
+.onlinebtnTitle{
+  font-size: 22px;
+  line-height: 45px;
 }
 
 #onlinebtnOK{
