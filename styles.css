@@ -232,34 +232,30 @@ body{
   height: 480px;
 }
 
-.onlinebtnTitle{
-  font-size: 22px;
-  line-height: 45px;
+#onlineAsk input[type=radio] {display: none;}
+#onlineAsk input[type=radio]:checked+label{
+  background-color:#59c7f7;
 }
 
-.onlinebtn{
-  border: none;
-  background-color:#eeeeee;
+#onlineAsk label {
   margin: 6px;
   width: 135px;
   height: 115px;
-  display: inline;
+  display: inline-block;
   border-radius:20px;
   font-size: 17px;
+  line-height: 115px;
+  background-color:#eeeeee;
 }
 
-.onlinebtn:hover{
+#onlineAsk label:hover{
   cursor: pointer;
   font-weight: bold;
 }
 
-.onlinebtn:focus{
-  background-color:#59c7f7;
-}
-
-#onlinelongbtn{
-  width: 445px;
-  height: 80px;
+.onlinebtnTitle{
+  font-size: 22px;
+  line-height: 45px;
 }
 
 #onlinebtnOK{
@@ -293,37 +289,6 @@ body{
 .onlineFormTxt:focus{
   outline: 1px solid #59c7f7;
 }
-
-.onlineFormTel{
-  width:117px;
-  height: 47px;
-  font-size: 20px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-align: left;
-  padding:10px;
-  border-radius:10px;
-  border: 2px solid #bebebe
-}
-
-.onlineFormTel-- {
-  font-size: 20px;
-
-}
-
-.onlineFormTel > option {
-  text-align: left;
-}
-
-.onlineFormTel:hover{
-  border: 2px solid #59c7f7;
-}
-
-.onlineFormTel:focus{
-  outline: 1px solid #59c7f7;
-}
-
 
 #nobodyReadTitle{
   font-size: 22px;
