@@ -10,18 +10,6 @@
 //   }
 // });
 
-// 스크롤 후기 동영상 그림자
-// document.addEventListener('scroll', () => {
-//   let image = document.getElementById('videoBack');
-
-//   if(window.scrollY > 500) {
-//     image.style.opacity = '1';
-//   } else {
-//     image.style.opacity = '0.5';
-//   }
-// })
-
-
 //스크롤 수강후기 제목 변경
 document.addEventListener('scroll', () => {
   let image = document.getElementById('reviewTitle');
@@ -35,28 +23,29 @@ document.addEventListener('scroll', () => {
   }
 });
 
-//스크롤 협약업체 제목 변경
-document.addEventListener('scroll', () => {
-  let image = document.getElementById('partyTitle');
-
-  if (window.scrollY > 1500) {
-    image.style.top = '15px';
-    image.style.opacity = '1';
-  } else {
-    image.style.top = '50px';
-    image.style.opacity = '0.5';
-  }
-});
-
 //스크롤 온라인 상담 제목 변경
 document.addEventListener('scroll', () => {
   let image = document.getElementById('onlineTitle');
 
-  if (window.scrollY > 2500) {
-    image.style.top = '5px';
+  if (window.scrollY > 2100) {
+    image.style.top = '8px';
     image.style.opacity = '1';
   } else {
     image.style.top = '30px';
+    image.style.opacity = '0.5';
+  }
+});
+
+
+//스크롤 협약업체 제목 변경
+document.addEventListener('scroll', () => {
+  let image = document.getElementById('partyTitle');
+
+  if (window.scrollY > 2600) {
+    image.style.top = '15px';
+    image.style.opacity = '1';
+  } else {
+    image.style.top = '50px';
     image.style.opacity = '0.5';
   }
 });
