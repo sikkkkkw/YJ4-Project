@@ -113,18 +113,20 @@
           <script src="./carousel/Carousel.js"></script>
             <div class="reviewBottomTxt">
               <ul>
-                <li><span class="reviewBottomTxtBig1">시각디자인 산업기사</span><br><span class="reviewBottomTxtName1">이** 수료생</span><br><hr><span class="reviewBottomTxtSmall1">6개월이란 기간동안 정말 많은 것을 배울 수 있었습니다.<br>
+                <li class="reviewtext"><span class="reviewBottomTxtBig1">시각디자인 산업기사</span><br><span class="reviewBottomTxtName1">이** 수료생</span><br><hr><span class="reviewBottomTxtSmall1">6개월이란 기간동안 정말 많은 것을 배울 수 있었습니다.<br>
                   아마 이 곳이 아니었다면 취직이 힘들었을 것이라는 생각이 듭니다.</span></li>
-                <li><span class="reviewBottomTxtBig2">시각디자인 산업기사</span><br><span class="reviewBottomTxtName2">엄** 수료생</span><br><hr><span class="reviewBottomTxtSmall2">6개월 과정이 길었지만 
+                <li class="reviewtext"><span class="reviewBottomTxtBig2">시각디자인 산업기사</span><br><span class="reviewBottomTxtName2">엄** 수료생</span><br><hr><span class="reviewBottomTxtSmall2">6개월 과정이 길었지만 
                   그동안 여러가지를 배울 수 있어서 좋았고, 학교에서 여러 도움을 받았던 터라 고마운 마음이 큽니다.</span></li>
-                <li><span class="reviewBottomTxtBig3">시각디자인 산업기사</span><br><span class="reviewBottomTxtName3">장** 수료생</span><br><hr><span class="reviewBottomTxtSmall3">영진직업전문학교가 취업률도 높고, 디자인에 대한 전문적인 지식을 습득할 수
+                <li class="reviewtext"><span class="reviewBottomTxtBig3">시각디자인 산업기사</span><br><span class="reviewBottomTxtName3">장** 수료생</span><br><hr><span class="reviewBottomTxtSmall3">영진직업전문학교가 취업률도 높고, 디자인에 대한 전문적인 지식을 습득할 수
                   있을 것 같아 지원하게 됐습니다.</span></li>
               </ul>
             </div> 
             <script src="./carousel/review.js"></script>
          </div>
         </article >
-        <div style="height: 40px;"></div>
+        <div style="height: 135px;"></div>
+        <hr style="border: 1px solid#dddddd; width: 1200px;">
+        <div style="height: 20px;"></div>
         <article id = "online">
           <form id="form" onsubmit="test(event)">
           <img class="aniTitle" id="onlineTitle" src="./srcoll/online.png"/>
@@ -170,6 +172,9 @@
         </div>
         </article>
     </section>
+  <div style="height: 20px;"></div>
+    <hr style="border: 1px solid#dddddd; width: 1200px;">
+  <div style="height: 20px;"></div>
   <div style="height: 80px;"></div>
     <div id ="party">
      <img class="aniTitle" id="partyTitle" src="./srcoll/party.png"/>  
@@ -207,7 +212,7 @@ copyright © 대구국비지원 무료교육센터 영진직업전문학교. All
       </div>
   </footer>
   <div id = "open">
-    <i class="fa-solid fa-gift"></i>
+    <i class="fa-solid fa-gift"  onclick="pageOpen()"></i>
   </div>
   <div id ="stampButton">
     <div>
@@ -271,25 +276,27 @@ copyright © 대구국비지원 무료교육센터 영진직업전문학교. All
     </div>
   </div>
   <!-- 스탬프 팝업창 -->
-  <div class = "stamp_layer" id="stamp_layer">
-      <div class = "stamp_box">
-        <!-- 닫기 버튼 -->
-        <div class="closePop3" >
-          <a href="javascript:stampPopClose();"><img src="./popup/ic_close.svg" class="m_header-banner-close" width="30px" height="30px"></a>
-        </div>
-        <div id="stampPopup_text">
-          동네방네<br>영진직업전문학교 소문내고<br><span style="color: #ff4d4d;">다양한 경품</span> 받아가자!
-        </div>
-        <!-- 스탬프 컨텐츠 영역 -->
-        <div class="stamp_cont">
-          <button id="eventpage">지금 바로 참가하기</button>
-          <label for="hideCheckbox">
-              <input type="checkbox" id="hideCheckbox" class="popupid1">
-          </label>
-          <button id="popupid" type="button" onclick="PopupNoDisplay_1()"><span>하루동안 보지않기</span></button>
-        </div>
+  <div class="stamp_layer" id="stamp_layer">
+    <div class="stamp_box">
+      <!-- 닫기 버튼 -->
+      <div class="closePop3">
+        <a href="javascript:void(0);" onclick="stampPopClose();"></a>
+        <a href="javascript:stampPopClose();"><img src="./popup/ic_close.svg" class="m_header-banner-close" width="30px" height="30px"></a>
+      </div>
+      <div id="stampPopup_text">
+        동네방네<br>영진직업전문학교 소문내고<br><span style="color: #ff4d4d;">다양한 경품</span> 받아가자!
+      </div>
+      <!-- 스탬프 컨텐츠 영역 -->
+      <div class="stamp_cont">
+        <button id="eventpage" onclick="pageOpen()">지금 바로 참가하기</button>
+        <label for="hideCheckbox">
+          <input type="checkbox" id="hideCheckbox" class="popupid1">
+        </label>
+        <button id="popupid" type="button" onclick="PopupNoDisplay_1()"><span>하루동안 보지않기</span></button>
       </div>
     </div>
+  </div>
+  
   <script src="./top/top.js"></script> 
   <script src="./popup/stamppopup.js"></script> 
   <script src ="./popup/test.js"></script>
