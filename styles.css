@@ -163,13 +163,13 @@ body{
   box-sizing: content-box;
   word-break: keep-all;
   padding: 10px;
-  border: 3px solid #609fe2;
+  border: 2px solid #dddddd;
   position: absolute;
   display: inline-block;
   margin-left: 15px;
   margin-right: 15px;
   border-radius: 20px;
-  background-color: #bdd9fa;
+  background-color: rgba(255, 255, 255);
   top: -20px;
 }
 
@@ -427,6 +427,10 @@ body{
   font-family: 'SEBANG_Gothic_Bold';
   font-size: 60px;
   line-height: 70px;
+}
+.reviewtext{
+  font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
 }
 
 @font-face {
