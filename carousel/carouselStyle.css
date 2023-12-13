@@ -32,21 +32,6 @@
   border: 5px solid rgba(255,255,255,0);
 }
 
-.prev, .next {
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
-  background-size: contain;
-}
-
-.prev {
-  background-image: url('prevImg.png');
-}
-
-.next {
-  background-image: url('nextImg.png');
-}
-
 /* 자동 캐러셀 스타일 */
 .carouselBox2 {
   position: relative;

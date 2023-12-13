@@ -58,7 +58,7 @@ class InfiniteCarousel {
   setupEvents() {
     this.carousel.addEventListener('transitionend', () => this.handleTransitionEnd());
     this.updateCarousel();
-    setInterval(() => this.next(), 3000); 
+    setInterval(() => this.next(), 3900); 
   }
 
   updateCarousel() {

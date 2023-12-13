@@ -135,7 +135,7 @@ body{
   margin-right: auto; 
 }
 
-#video-container{top:78px;position: relative; left: -10;}
+#video-container{top:78px;position: relative; left: -24px;}
 
 #boxYoutube {top:20px;}
 
@@ -409,9 +409,9 @@ body{
 }
 #back1{
   top:2100px;
-  background-image: url(./images/color/후보7.jpg);
+  background-image: url(./images/color/후보7.png);
   width: 100%;
-  height:769px;
+  height:610px;
   float: left;
   position: absolute;
 }
