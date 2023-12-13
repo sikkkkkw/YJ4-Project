@@ -109,9 +109,7 @@ video {
   font-size: 48px; 
   color: #ffffff; 
 }
-.jb-box li{
-  color: #ffffff;
-}
+
 iframe{
   border-radius: 5px;
 }
@@ -137,12 +135,9 @@ body{
   margin-right: auto; 
 }
 
-#video-container{top:78px}
+#video-container{top:78px;position: relative; left: -10;}
 
-#boxYoutube {
-  top:20px;
-  position: relative; 
-}
+#boxYoutube {top:20px;}
 
 #part{
   height:930px; 
@@ -166,13 +161,27 @@ body{
   word-break: keep-all;
   padding: 10px;
   border: 3px solid #609fe2;
-  position: relative;
+  position: absolute;
   display: inline-block;
   margin-left: 15px;
   margin-right: 15px;
   border-radius: 20px;
   background-color: #bdd9fa;
+  top: -20px;
 }
+
+.reviewBottomTxt li:nth-child(1){
+  left:0px;
+}
+
+.reviewBottomTxt li:nth-child(2){
+  left:370px;
+}
+
+.reviewBottomTxt li:nth-child(3){
+  right:0px;
+}
+
 .reviewBottomTxtBig1 {
   font-size: 25px;
   word-break: keep-all;
