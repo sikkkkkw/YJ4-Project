@@ -58,6 +58,6 @@ document.addEventListener('scroll', () => {
 
   lfBlue.style.left = window.scrollY > 2100 ? '-300px' : '-400px';
   lfSky.style.left = window.scrollY > 2100 ? '-200px' : '-400px';
-  rgBlue.style.right = window.scrollY > 2400 ? '-100px' : '-140px';
-  rgSky.style.right = window.scrollY > 2400 ? '-200px' : '-220px';
+  rgBlue.style.right = window.scrollY > 2500 ? '-100px' : '-140px';
+  rgSky.style.right = window.scrollY > 2500 ? '-200px' : '-220px';
 });
