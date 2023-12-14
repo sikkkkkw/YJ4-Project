@@ -111,9 +111,9 @@ header {
   top: 490px
 }
 
-#circle1 {left: 553px;}
+#circle1 {left: 653px;}
 #circle2 {left: 50%; transform: translateX(-50%);}
-#circle3 {left: 1133px;}
+#circle3 {left: 1233px;}
 
 .circleTxt {
   position: absolute;
@@ -121,9 +121,9 @@ header {
   font-size: 30PX;
 }
 
-#circleTxt1 {left: 555px;}
+#circleTxt1 {left: 655px;}
 #circleTxt2 {left: 50%; transform: translateX(-50%);}
-#circleTxt3 {left: 1135px;}
+#circleTxt3 {left: 1235px;}
 
 .btnGo {
   position: absolute;
@@ -145,9 +145,9 @@ header {
   background-color: #004996;
 }
 
-#btnGo1 {left: 595px;}
+#btnGo1 {left: 695px;}
 #btnGo2 {left: 50%; transform: translateX(-50%);}
-#btnGo3 {left: 1185px;}
+#btnGo3 {left: 1285px;}
 
 #backSmall2 {
   position: relative;
@@ -170,9 +170,9 @@ header {
   left: 50%; transform: translateX(-50%);
 }
 
-#evRe1 {left: 545px;}
+#evRe1 {left: 655px;}
 #evRe2 {left: 50%; transform: translateX(-50%);}
-#evRe3 {left: 1123px;}
+#evRe3 {left: 1223px;}
 
 .eventTxt1 {
  position: absolute;
@@ -181,13 +181,13 @@ header {
 }
 
 #ev1-1 {
-  left: 715px;
+  left: 830px;
   font-weight: bold;
   color: #0071f9;
 }
 
 #ev1-2 {
-  left: 870px;
+  left: 980px;
   color: #0071f9;
 }
 
