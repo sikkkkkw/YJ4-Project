@@ -23,7 +23,10 @@
   font-size: 24px;
 }
 
-#scrollArWarp {position: relative;}
+#scrollArWarp {
+  position: relative;height: 100px;margin-top: 5px;color: #106aca;
+  font-weight: bold;
+}
 /* #scrollAr {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0;} */
 #scrollAr {
   display: inline-block; position: absolute;top:25%;left: 49.5%;
