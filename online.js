@@ -82,6 +82,11 @@ function formCheck(event) {
         if (result.ok === true) {
           alert("성공");
         }
+        // 초기화
+        name.value = "";
+        phone.value = "";
+        job.checked = false;
+        ckbx.checked = false;
       });
   }
 }
