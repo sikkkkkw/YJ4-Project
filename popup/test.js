@@ -38,3 +38,32 @@ document.addEventListener("DOMContentLoaded", function () {
     window.open(url, "_blank", "");
   }
   
+  document.getElementById('open').onclick = function() {
+    stampPopOpen();
+}
+
+function openPop() {
+    document.getElementById('popup_layer').style.display = "block";
+}
+
+function closePop() {
+    document.getElementById('popup_layer').style.display = "none";
+}
+
+function openPop2() {
+    document.getElementById('popup_layer2').style.display = "block";
+}
+
+function closePop2() {
+    document.getElementById('popup_layer2').style.display = "none";
+}
+
+function stampPopOpen() {
+    document.getElementById("stamp_layer").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+}
+
+function stampPopClose() {
+    document.getElementById("stamp_layer").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+}
