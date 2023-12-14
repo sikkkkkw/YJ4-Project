@@ -16,8 +16,6 @@
 </head>
 <body>
   <div id="back1"></div>
-  <script src="./srcoll/Scroll.js"></script>
-
    <header id="header">
       <img src="./images/YungjinRogo1.png" alt="영진직업전문학교" />
       <input onclick="openSignupPop()" class="topLogin fontPretendard" style="right: 120px;" type="button" value="회원가입">
@@ -63,12 +61,12 @@
                 changeTxt(txt)
               }
 
-              let txtArr = ["<span class='tubeTxt1'>스스로 학습하는 습관 생성</span><br><span class='tubeTxt2'>박현호 수료생</span><br><span class='tubeTxt3'>해보고 싶은 게 있을 때, 어떻게 시작해야 할지 잘 모르겠을 때 시작한다는 마음으로<br>교육을 듣는다면 좋을 것 같습니다.</span>", 
-              "<span class='tubeTxt1'>체계적인 과정을 통한 실력 양성</span><br><span class='tubeTxt2'>김경섭 수료생</span><br><span class='tubeTxt3'>함께한 동기들과의 단합 시간이 가장 기억에 남습니다. (중략)<br>동기들과 협동하며 꾸준히 노력한다면 좋은 성과가 반드시 있을 것이라고 생각합니다.</span>", 
-              "<span class='tubeTxt1'>NCS를 기반으로 실용적인 지식 학습</span><br><span class='tubeTxt2'>양정우 수료생</span><br><span class='tubeTxt3'>전공자, 비전공자 상관없이 아주 기초부터 차근차근 단계를 밟아 나가는 수업으로 구성되어 있어<br>무리없이 따라갈 수 있었습니다.</span>", 
-              "<span class='tubeTxt1'>서투른 부분을 채워주는 교수님의 피드백</span><br><span class='tubeTxt2'>양현예 수료생</span><br><span class='tubeTxt3'>훈련 초반부터 과제를 진행했는데, 미숙한 부분이 많았지만<br>교수님의 지도를 받아 즐겁게 작업할 수 있었습니다.</span>", 
-              "<span class='tubeTxt1'>실무중심 체계적인 커리큘럼</span><br><span class='tubeTxt2'>이원도 수료생</span><br><span class='tubeTxt3'>길다면 길고 짧다면 짧은 훈련 교육기간 동안 힘든 시간을<br>좋은 교수진과 동료들의 응원 통해 성공적 으로 수료하게 되어 기쁩니다.</span>", 
-              "<span class='tubeTxt1'>함께 실무역량을 갖기를 원하는 분들께 적극추천</span><br><span class='tubeTxt2'>공혜진 수료생</span><br><span class='tubeTxt3'>개인적으로는 힘들었지만 성장할 수 있었던 시간이라고 생각하고<br>회계와 세무의 전문지식을 기룰 수 있어서 유익한 시간이었습니다.</span>"];
+              let txtArr = ["<span class='tubeTxt1'>다양한 언어를 단기간에 마스터&nbsp;</span><span class='tubeTxt2'>&nbsp;박현호 수료생</span><br><span class='tubeTxt3'>속도와 효율을 갖춘 학습과정이 큰 도움이 되었습니다.</span>", 
+              "<span class='tubeTxt1'>이론과 실습의 균형잡힌 학습 과정&nbsp;</span><span class='tubeTxt2'>&nbsp;김경섭 수료생</span><br><span class='tubeTxt3'>산업의 필수요소, 전기의 전문 기술자가 될 수 있었습니다.</span>", 
+              "<span class='tubeTxt1'>빠르고 쉬운 건축 설계법 학습&nbsp;</span><span class='tubeTxt2'>&nbsp;양정우 수료생</span><br><span class='tubeTxt3'>전문가들의 실전 경험이 담긴 지혜를 배울 수 있었습니다.</span>", 
+              "<span class='tubeTxt1'>서투른 부분을 채워주는 교수님의 피드백&nbsp;</span><span class='tubeTxt2'>&nbsp;양현예 수료생</span><br><span class='tubeTxt3'>미숙한 부분이 많았지만 교수님의 지도를 받아 즐겁게 작업할 수 있었습니다.</span>", 
+              "<span class='tubeTxt1'>실무중심 체계적인 커리큘럼&nbsp;</span><span class='tubeTxt2'>&nbsp;이원도 수료생</span><br><span class='tubeTxt3'>산업 현장 요구에 부합하는 최신 기술을 배울 수 있었습니다.</span>", 
+              "<span class='tubeTxt1'>암기보다는 이해 중심의 회계 교육&nbsp;</span><span class='tubeTxt2'>&nbsp;공혜진 수료생</span><br><span class='tubeTxt3'>지루하지 않으면서도 전문성 있고 실용적인 수업을 들었습니다.</span>"];
 
               function openLoginPop() {
                   window.open('./login/login.html', '_blank', 'width=460, height=500, top=50, left=50');
@@ -80,12 +78,16 @@
             </script>
           </div>
         </article>
+        <img class="backCircle" id="lfBlue" src="./srcoll/back/left-blue.png">
+        <img class="backCircle" id="lfSky" src="./srcoll/back/left-sky.png">
+        <img class="backCircle" id="rgBlue" src="./srcoll/back/rg-blue.png">
+        <img class="backCircle" id="rgSky" src="./srcoll/back/rg-sky.png">
         <article id="back">
           <article id="job">
             <div id="video-container" class="all">
-              <p class="fontPretendard" id="BackText1"><span class='tubeTxt1'>LEVEL UP!<br></span>
+              <p class="fontPretendard" id="BackText1"><span class='tubeTxt1'>LEVEL UP!&nbsp;</span>
                 <span class="tubeTxt2">&nbsp;영진직업전문학교<br></span>
-                <span class='tubeTxt3'>취준생도 재직자도 누구나 배울 수 있는 곳! 취업능력 UP! 실무능력 UP! 가능성이 UP!<br>직업훈련 기관의 A+ 영진직업전문학교!</span></p>
+                <span class='tubeTxt3'>취업능력 UP! 실무능력 UP! 가능성이 UP! 직업훈련 기관의 A+ 영진직업전문학교!</span></p>
              
               <!-- YouTube 영상 추가 -->
               <iframe id="boxYoutube" src="https://www.youtube.com/embed/IycNYCKWIrU?si=eJ4fg9g5wFgNt_qD" frameborder="0" allowfullscreen></iframe>
@@ -112,7 +114,7 @@
           <script src="./carousel/Carousel.js"></script>
             <div class="reviewBottomTxt">
               <ul>
-                <li class="reviewtext"><span class="reviewBottomTxtBig1">시각디자인 산업기사</span><br><span class="reviewBottomTxtName1">이** 수료생</span><br><hr><span class="reviewBottomTxtSmall1">6개월이란 기간동안 정말 많은 것을 배울 수 있었습니다.<br>
+                <li class="reviewtext"><span class="reviewBottomTxtBig1 fontPretendard">시각디자인 산업기사</span><br><span class="reviewBottomTxtName1">이** 수료생</span><br><hr><span class="reviewBottomTxtSmall1">6개월이란 기간동안 정말 많은 것을 배울 수 있었습니다.<br>
                   아마 이 곳이 아니었다면 취직이 힘들었을 것이라는 생각이 듭니다.</span></li>
                 <li class="reviewtext"><span class="reviewBottomTxtBig2">시각디자인 산업기사</span><br><span class="reviewBottomTxtName2">엄** 수료생</span><br><hr><span class="reviewBottomTxtSmall2">6개월 과정이 길었지만 
                   그동안 여러가지를 배울 수 있어서 좋았고, 학교에서 여러 도움을 받았던 터라 고마운 마음이 큽니다.</span></li>
@@ -126,6 +128,10 @@
         <div style="height: 135px;"></div>
         <hr style="border: 1px solid#dddddd; width: 1200px;">
         <div style="height: 20px;"></div>
+        <img class="backCircle2" id="lfBlue2" src="./srcoll/back/rg-blue.png">
+        <img class="backCircle2" id="lfSky2" src="./srcoll/back/rg-sky.png">
+        <img class="backCircle2" id="rgBlue2" src="./srcoll/back/rg-blue.png">
+        <img class="backCircle2" id="rgSky2" src="./srcoll/back/rg-sky.png">
         <article id = "online">
           <form id="form">
           <img class="aniTitle" id="onlineTitle" src="./srcoll/online.png"/>
@@ -299,6 +305,7 @@ copyright © 대구국비지원 무료교육센터 영진직업전문학교. All
   <script src="./top/top.js"></script> 
   <script src="./popup/stamppopup.js"></script> 
   <script src ="./popup/test.js"></script>
+  <script src="./srcoll/Scroll.js"></script>
 </body>
 </html>
 
