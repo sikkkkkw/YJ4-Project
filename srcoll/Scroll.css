@@ -17,6 +17,7 @@ body {
   width: 1080px;
   height: 130px;
   background-image: url("../images/color/후보4.jpg");
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .tubeTxt1 {
