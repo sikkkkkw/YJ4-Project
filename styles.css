@@ -24,6 +24,7 @@
 }
 
 #scrollArWarp {position: relative;}
+
 #scrollAr {
   display: inline-block; position: absolute;top:25%;left: 49.5%;
   width: 28px;height: 38px;border: 3px solid #106aca;border-radius: 50px;
