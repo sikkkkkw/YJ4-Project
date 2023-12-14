@@ -27,7 +27,7 @@
   position: relative;height: 100px;margin-top: 5px;color: #106aca;
   font-weight: bold;
 }
-/* #scrollAr {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0;} */
+
 #scrollAr {
   display: inline-block; position: absolute;top:25%;left: 49.5%;
   width: 28px;height: 38px;border: 3px solid #106aca;border-radius: 50px;
@@ -46,14 +46,6 @@ ol {
   padding: 0;
 }
 #hoverr li {
-  /* list-style-type: none;
-  display: inline-block;
-  border :1px solid black;
-  width: 100px;
-  height: 50px;
-  margin-right : -4px;
-  margin-bottom : -15px;
-  padding: 10px; */
   display: inline-block;
   text-align: center;
   border: 1px solid #ddd;
@@ -143,8 +135,10 @@ body{
 #boxYoutube {top:20px;}
 
 #part{
+  position: relative;
   height:930px; 
   width: 1080px; 
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -158,18 +152,16 @@ body{
 .reviewBottomTxt ul{padding: 0;}
 
 .reviewBottomTxt li {
-  width: 290px;
-  height: 250px;
+  width: 270px;
+  height: 230px;
   box-sizing: content-box;
   word-break: keep-all;
-  padding: 10px;
-  border: 2px solid #dddddd;
+  padding: 20px;
   position: absolute;
   display: inline-block;
   margin-left: 15px;
   margin-right: 15px;
-  border-radius: 20px;
-  background-color: rgba(255, 255, 255);
+  background-color: rgba(255, 255, 255,0.5);
   top: -20px;
 }
 
@@ -190,10 +182,13 @@ body{
   word-break: keep-all;
   line-height: 1.5;
 }
-.reviewBottomTxtBig, .reviewBottomTxtName, .reviewBottomTxtSmall{
+
+.reviewBottomTxt * {
   font-family: 'Pretendard-Regular';
+  color:#222;
 }
-.reviewBottomTxtBig {
+
+.reviewBottomTxtBig1 {
   font-size: 25px;
   word-break: keep-all;
   line-height: 1.5;
@@ -202,27 +197,31 @@ body{
 .reviewBottomTxtSmall1 {
   font-size: 20px;
   word-break: keep-all;
+  line-height: 1.3;
 }
 
 .reviewBottomTxtBig2 {
   font-size: 25px;
   word-break: keep-all;
+  line-height: 1.5;
 }
 
 .reviewBottomTxtSmall2 {
   font-size: 20px;
   word-break: keep-all;
+  line-height: 1.3;
 }
 
 .reviewBottomTxtBig3 {
   font-size: 25px;
   word-break: keep-all;
+  line-height: 1.5;
 }
 
 .reviewBottomTxtSmall3 {
   font-size: 20px;
   word-break: keep-all;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 #party{
@@ -402,19 +401,31 @@ body{
 .fontPretendard {
   font-family: 'Pretendard-Regular';
 }
-#back{
-  background-image: url(./images/color/후보6.jpg);
-  background-size: auto;
-  width: 1960px;
-  height: -900px;
-  margin-left: auto;
-  margin-right: auto; 
+
+.backCircle{position: absolute;}
+#lfBlue{left: -250px;top: 850px;z-index: -10;transition: left 0.5s ease}
+#lfSky{left:-360px;top: 960px;z-index: -11;transition: left 0.7s ease}
+#rgBlue{right: -90px;top: 1500px;z-index: -10;transition: right 0.5s ease}
+#rgSky{right: -170px;top: 1600px;z-index: -11;transition: right 0.7s ease}
+
+.backCircle2{position: absolute;}
+#lfBlue2{left: -220px;top: 2950px;z-index: -10;width: 25%;transition: left 0.5s ease}
+#lfSky2{
+  left:-300px;top: 2850px;z-index: -11;width: 25%;transition: left 0.7s ease}
+#rgBlue2{
+  right: -100px;top: 3280px;z-index: -10;
+  transform: rotate(150deg);transition: right 0.5s ease
 }
+#rgSky2{
+  right: -200px;top: 3380px;z-index: -11;
+  transform: rotate(150deg);transition: right 0.7s ease
+}
+
 #back1{
   top:2100px;
   background-image: url(./images/color/배경3.png);
   width: 100%;
-  height:610px;
+  height:650px;
   float: left;
   position: absolute;
 }
