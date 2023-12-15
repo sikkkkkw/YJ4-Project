@@ -51,14 +51,13 @@ ol {
   line-height: 2;
   margin: 0 -4.5px -1px 0;
   word-break: keep-all;
-  width: 175px;
+  width: 16%;
   height: 100px;
   border-radius: 10px;
   margin-left: 4px;
-
 }
 button{
-  width: 147px;
+  width: 100%;
   height: 95px;
   font-size: 1.2em;
   background: #fff;
@@ -127,7 +126,7 @@ body{
   margin-right: auto; 
 }
 
-#video-container{top:0px;position: relative; left: -24px;}
+#video-container{top:0px;position: relative; left: 5px;}
 
 #boxYoutube {top:20px;}
 
@@ -319,6 +318,7 @@ body{
   left:10px;
   padding:20px;
   border: 2px solid #bebebe;
+  background-color: #fff;
   overflow-y: scroll;
   width: 430px;
   height: 160px;
