@@ -30,9 +30,26 @@
         </nav>
       <div class="jb-text">
         <nav>
-          <p id="main">고용노동부 인증 최우수 훈련기관<br>영진직업전문학교</p>
+          <p id="main"><span id="mainType" style="font-size: 50px;"></span><span id="blink">_</span><br>영진직업전문학교</p>
         </nav>
       </div>
+      <script>
+        let txt = "언제나 최고를 지향하는";
+        let i = 0;
+
+        function add(){
+            document.querySelector("#mainType").innerHTML += txt[i++];
+            if (i >= txt.length) {
+              clearInterval(intv)
+              setTimeout(() => {
+                document.querySelector("#mainType").innerHTML = "";
+                i = 0;
+                intv = setInterval(add, 200);
+              }, 2000);
+            }
+        }
+        let intv = setInterval(add, 200);
+      </script>
     </header>
     <section id="section">
         <div id="scrollArWarp">SCROLL DOWN<br><span id="scrollAr"></span><br>
@@ -301,7 +318,7 @@ copyright © 대구국비지원 무료교육센터 영진직업전문학교. All
       </div>
     </div>
   </div>
-  
+  <script src="index.js"></script>
   <script src="./top/top.js"></script> 
   <script src="./popup/stamppopup.js"></script> 
   <script src ="./popup/test.js"></script>
