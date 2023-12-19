@@ -649,50 +649,106 @@ header {
   }
 }
 @media screen and (max-width: 390px) {
+  #circle2 {
+    left: 24%;
+    position: absolute;
+    width: 70px;
+    top: 310px;
+  }
+  #circleTxt2 {
+    left: 23%;
+    top: 370px;
+    font-size: 11px;
+  }
+  #btnGo2 {
+    left: 27%;
+    top: 410px;
+    width: 50px;
+    height: 25px;
+  }
+  #circle3 {
+    left: 58%;
+    position: absolute;
+    width: 70px;
+    top: 310px;
+  }
+  #circleTxt3 {
+    left: 57%;
+    top: 370px;
+    font-size: 11px;
+  }
+  #btnGo3 {
+    left: 62%;
+    top: 410px;
+    width: 50px;
+    height: 25px;
+  }
+  #evRe1 {
+    left: 15%;
+    top: 560px;
+    width: 80px;
+  }
+  #evRe2 {
+    left: 50%;
+    top: 560px; 
+    width: 80px;
+    transform: translateX(-50%);
+  }
+  #evRe3 {
+    left: 65%;
+    top: 560px; 
+    width: 80px;
+  }
+  #ev1-1 {
+    left: 25%;
+    top: 650px;
+    font-weight: bold;
+    color: #0071f9; 
+  }
+  #ev1-2 {
+    left: 35%;
+    top: 650px;
+    color: #0071f9;
+  }
+
   #headLogo1 {
-    width: 90%; /* 작은 화면에 대한 너비 조절 */
-    font-size: 16px; /* 작은 화면에 대한 글꼴 크기 조절 */
+    width: 90%; /* 아주 작은 화면에 대한 너비 조절 */
+    font-size: 18px; /* 아주 작은 화면에 대한 글꼴 크기 조절 */
   }
 
   #headLogo2 {
-    font-size: 36px; /* 작은 화면에 대한 글꼴 크기 조절 */
-    line-height: 40px; /* 작은 화면에 대한 줄 높이 조절 */
+    font-size: 50px; /* 아주 작은 화면에 대한 글꼴 크기 조절 */
+    line-height: 60px; /* 아주 작은 화면에 대한 줄 높이 조절 */
   }
 
   .circleTxt {
-    top: 470px; /* 작은 화면에 대한 상단 위치 조절 */
-    font-size: 14px; /* 작은 화면에 대한 글꼴 크기 조절 */
+    top: 540px; /* 아주 작은 화면에 대한 상단 위치 조절 */
+    font-size: 16px; /* 아주 작은 화면에 대한 글꼴 크기 조절 */
   }
 
   .btnGo {
-    top: 580px; /* 작은 화면에 대한 상단 위치 조절 */
-    font-size: 12px; /* 작은 화면에 대한 글꼴 크기 조절 */
+    font-size: 16px; /* 아주 작은 화면에 대한 글꼴 크기 조절 */
   }
 
   #backSmall, #backSmall2 {
-    width: 90%; /* 작은 화면에 대한 너비 조절 */
+    width: 90%; /* 아주 작은 화면에 대한 너비 조절 */
   }
 
   .evRe {
-    top: 700px; /* 작은 화면에 대한 상단 위치 조절 */
+    top: 780px; /* 아주 작은 화면에 대한 상단 위치 조절 */
   }
 
   #evReTxt {
-    top: 630px; /* 작은 화면에 대한 상단 위치 조절 */
-    font-size: 14px; /* 작은 화면에 대한 글꼴 크기 조절 */
+    top: 530px; /* 아주 작은 화면에 대한 상단 위치 조절 */
+    font-size: 12px; /* 아주 작은 화면에 대한 글꼴 크기 조절 */
   }
 
   .eventTxt1, .eventTxt2 {
-    top: 800px; /* 작은 화면에 대한 상단 위치 조절 */
-    font-size: 12px; /* 작은 화면에 대한 글꼴 크기 조절 */
+    top: 1000px; /* 아주 작은 화면에 대한 상단 위치 조절 */
+    font-size: 14px; /* 아주 작은 화면에 대한 글꼴 크기 조절 */
   }
 
   #downImg {
-    width: 90%; /* 작은 화면에 대한 너비 조절 */
+    width: 90%; /* 아주 작은 화면에 대한 너비 조절 */
   }
 }
-img.responsive-img {
-  max-width: 100%; /* 이미지를 부모 요소에 맞게 조정 */
-  height: auto; /* 세로 비율 유지 */
-}
-
