@@ -24,6 +24,10 @@
   letter-spacing: 2px;
 }
 
+#login_ {
+  display: inline; position: absolute; top:48px;right:120px; color: #16273b;
+}
+
 .topLogin:hover{
   cursor: pointer;
   font-size: 24px;
@@ -45,17 +49,18 @@
 }
 
 ol {
-  list-style: none;
+  display: flex;flex-wrap: wrap;
+  list-style: none;max-width: 1080px;
   padding: 0;
+  justify-content: center;
 }
 #hoverr li {
-  display: inline-block;
   text-align: center;
   border: 1px solid #ddd;
   color: #000000;
   padding: 1px;
   line-height: 2;
-  margin: 0 -4.5px -1px 0;
+  margin: 0 -4.5px -1px 10px;
   word-break: keep-all;
   width: 16%;
   height: 100px;
@@ -84,27 +89,26 @@ button{
   color:#106aca;
 }
 .jb-box { 
-    width: 100%; 
-    height: 700px;
+    width: 100%;height: 700px;
     overflow: hidden;
     margin: 0px auto; 
     position: relative;
-    min-width: 1920px
 }
-video { 
-    width: 100%; 
-}
-.jb-text { 
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  color: #ffffff;
-}
+video {width: 100%;}
+#header{position: relative;}
 .jb-text p { 
-  margin-top: -24px; 
+  position: absolute;width: 100%;
+  top: 40%;
   text-align: center; 
-  font-size: 48px; 
   color: #ffffff; 
+}
+#mainType{font-size: 50px;}
+#main{
+  padding-top: 10px;padding-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: 'SEBANG_Gothic_Bold';
+  font-size: 60px;
+  line-height: 70px;
 }
 
 iframe{
@@ -148,26 +152,24 @@ body{
 .reviewBottomTxt{
   position: relative;
   top:70px;
-  list-style-type: none;
 }
 
-.reviewBottomTxt ul{padding: 0;}
+.reviewBottomTxt ul{
+  padding: 0;display: flex;
+  justify-content: space-between;
+
+}
 
 .reviewBottomTxt li {
-  width: 290px;
-  height: 215px;
+  width: 290px;height: 215px;
   box-sizing: content-box;
   word-break: keep-all;
   padding: 10px;
   border: 2px solid #f0f0f0;
-  position: absolute;
-  display: inline-block;
-  margin-left: 15px;
-  margin-right: 15px;
   border-radius: 25px;
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  top: 10px;
+  list-style-type: none;
 }
 
 .reviewBottomTxt li:nth-child(1){
@@ -244,11 +246,11 @@ body{
   margin-left: auto;
   margin-right: auto;
   }
+#form{display: flex;align-content: flex-end;}
 
 #onlineAsk{
-  display: inline-block;
   position: relative;
-  top:5px;
+  top:30px;
   padding-left: 20px;
   padding-right: 20px;
   width: 535px;
@@ -444,13 +446,7 @@ body{
   display: none;
   /* Add other styles as needed */
 }
-#main{
-  padding-top: 10px;padding-bottom: 10px;
-  background-color: rgba(0, 0, 0, 0.3);
-  font-family: 'SEBANG_Gothic_Bold';
-  font-size: 60px;
-  line-height: 70px;
-}
+
 
 #blink {
   animation: blink 1s infinite;
@@ -462,18 +458,6 @@ body{
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
 }
 
-@font-face {
-font-family: 'yg-jalnan';
-src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
-font-weight: normal;
-font-style: normal;
-}
-/* Noto Sans */
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-
-.notosanskr * { 
- font-family: 'Noto Sans KR', sans-serif;
-}
 /* Pretendard */
 @font-face {
     font-family: 'Pretendard-Regular';
@@ -487,4 +471,40 @@ font-style: normal;
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@media screen and (max-width: 1024px){
+  #topBar{position: relative;height: 120px;}
+  #headerLogo{position: absolute;left: 25px;}
+  ol{width: 950px;margin-left: 15px;}
+  #hoverr li {width: 15%;}
+  #youtubeWrap{position: relative; width: 97vw; height: 60vw;}
+  #youtubeWrap iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+  .jb-box {
+    max-width: 1024px; /* 컨테이너의 최대 너비 */
+    margin: 0 auto; /* 컨테이너를 가운데 정렬 */
+    height: 700px; /* 높이 고정 */
+    overflow: hidden; /* 컨테이너 밖의 내용 숨김 */
+  }
+  .jb-box video{width: 100%; /* 동영상의 너비를 컨테이너에 맞춤 */
+    height: 100%; /* 동영상의 높이를 컨테이너의 높이에 맞춤 */
+    object-fit: cover; /* 동영상의 비율을 유지하면서 컨테이너를 채움 */}
+  .carouselBox{left: -35px;}
+  #BackText1{width: 950px;left: 25px;}
+  .reviewBottomTxt ul {width: 1005px; justify-content: space-around;}
+  #onlineAsk{padding: 0;} #onlineForm{padding: 0;}
+}
+
+@media screen and (max-width: 390px){
+  #topBar{position: relative;height: 120px;}
+  #headerLogo{position: absolute;top:25px;left: 35px;}
+  #mainType{font-size: 33px;}
+  #main{
+    font-size: 50px;
+    line-height: 55px;
+    padding-bottom: 10px;
+  }
+  #headerLogo{width: 80%;}
+  .topLogin{top: 10px;}
+  #login_{top: 18px;}
 }

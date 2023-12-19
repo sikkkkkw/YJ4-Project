@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>영진직업전문학교</title>
-    <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./carousel/carouselStyle.css" />
     <link rel="stylesheet" href="./srcoll/Scroll.css" />
     <link rel="stylesheet" href="./top/top.css" />
     <link rel="stylesheet" href="./popup/popup.css" />
     <link rel="stylesheet" href="./popup/popup2.css" />
     <link rel="stylesheet" href="./popup/stamppopup.css">
+    <link rel="stylesheet" href="./styles.css" />
     <script src="https://kit.fontawesome.com/7fe8e71161.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div id="back1"></div>
    <header id="header">
-      <img src="./images/YungjinRogo1.png" alt="영진직업전문학교" />
-      <input onclick="openSignupPop()" class="topLogin fontPretendard" style="right: 120px;" type="button" value="회원가입">
-      <div style="display: inline; position: absolute; top:48px;right:120px; color: #16273b; ">|</div>
-      <input onclick="openLoginPop()" class="topLogin fontPretendard" type="button" value="로그인">
+      <div id="topBar">
+        <img id="headerLogo" src="./images/YungjinRogo1.png" alt="영진직업전문학교" />
+        <input onclick="openSignupPop()" class="topLogin fontPretendard" style="right: 120px;" type="button" value="회원가입">
+        <div id="login_">|</div>
+        <input onclick="openLoginPop()" class="topLogin fontPretendard" type="button" value="로그인">
+      </div>
         <nav>
           <div class="jb-box">
             <video id="headVideo" muted autoplay loop >
@@ -29,9 +31,7 @@
           </div>
         </nav>
       <div class="jb-text">
-        <nav>
-          <p id="main"><span id="mainType" style="font-size: 50px;"></span><span id="blink">_</span><br>영진직업전문학교</p>
-        </nav>
+          <p id="main"><span id="mainType"></span><span id="blink">_</span><br>영진직업전문학교</p>
       </div>
       <script>
         let txt = "언제나 최고를 지향하는";
@@ -107,7 +107,9 @@
                 <span class='tubeTxt3'>취업능력 UP! 실무능력 UP! 가능성이 UP! 직업훈련 기관의 A+ 영진직업전문학교!</span></p>
              
               <!-- YouTube 영상 추가 -->
+              <div id="youtubeWrap">
               <iframe id="boxYoutube" src="https://www.youtube.com/embed/IycNYCKWIrU?si=eJ4fg9g5wFgNt_qD" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
           </article>
         </article>
@@ -150,8 +152,8 @@
         <img class="backCircle2" id="rgBlue2" src="./srcoll/back/rg-blue.png">
         <img class="backCircle2" id="rgSky2" src="./srcoll/back/rg-sky.png">
         <article id = "online">
-          <form id="form">
           <img class="aniTitle" id="onlineTitle" src="./srcoll/online.png"/>
+          <form id="form">
           <div id="onlineAsk" class="fontPretendard">
             <span class="onlinebtnTitle">관심학과를 골라주세요.</span><br>
             <input type="radio" name="Ask" id='IT &middot SW' value="IT/SW"><label for="IT &middot SW">IT &middot SW</label>
@@ -199,6 +201,7 @@
   <div style="height: 20px;"></div>
   <div style="height: 80px;"></div>
     <div id ="party">
+      <!-- 협약단체 -->
      <img class="aniTitle" id="partyTitle" src="./srcoll/party.png"/>  
      <div class="carouselBox2">
        <div class="carousel2">
