@@ -326,6 +326,13 @@ body {
   background-color: #eeeeee;
 }
 
+#onlineAsk #lastBtn {
+  width: 445px;
+  height: 85px;
+  line-height: 80px;
+  margin-bottom: 10px;
+}
+
 #onlineAsk label:hover {
   cursor: pointer;
   font-weight: bold;
@@ -424,7 +431,7 @@ body {
 }
 #prr {
   text-align: left;
-  width: 700px;
+  width: 50vw;
   height: 100px;
   line-height: 22px;
   margin: 0px;
@@ -625,8 +632,11 @@ body {
   #onlineForm {
     padding: 0;
   }
+  #prr {
+    text-align: left;
+    width: 50vw;
+  }
 }
-
 @media screen and (max-width: 390px) {
   #topBar {
     position: relative;
@@ -680,15 +690,46 @@ body {
   #job {
     height: 500px;
   }
-  .carouselBox {
+  .reviewBottomTxt ul {
     width: 100vw;
-    height: 400px;
-    overflow: hidden;
-    position: relative;
-    margin: 0;
-    left: 0px;
   }
-  .carouselBox .carousel img {
+  .reviewBottomTxt li:nth-child(n + 2) {
+    display: none;
+  }
+  #online {
+    height: 1100px;
+  }
+  #form {
     width: 100vw;
+    flex-direction: column;
+  }
+  #onlineAsk {
+    width: 100vw;
+  }
+  #onlineAsk label {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+  }
+  #onlineAsk #lastBtn {
+    width: 340px;
+    height: 75px;
+    list-style: 75px;
+  }
+
+  .onlineFormTxt,
+  #nobodyRead {
+    width: 90vw;
+    left: 20px;
+  }
+  #onlineSubmit {
+    left: 0;
+  }
+  #prr {
+    width: 95vw;
+  }
+  #footer {
+    height: 320px;
+    padding-left: 10px;
   }
 }
