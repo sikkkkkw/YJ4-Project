@@ -10,7 +10,7 @@ body {
   padding: 30px;
   text-align: center;
   position: absolute;
-  float:inline-end;
+  float: inline-end;
   top: 599px;
   border-radius: 10px;
   width: 1080px;
@@ -27,7 +27,7 @@ body {
 
 .tubeTxt2 {
   font-size: 20px;
-} 
+}
 
 .tubeTxt3 {
   font-size: 25px;
@@ -47,25 +47,42 @@ body {
 }
 
 /* 스크롤 제목 효과*/
+
 .aniTitle {
-  opacity: 0.2;
-  transition: opacity 1s, top 0.5s;
+  opacity: 0.5;
+  transform: translateY(50px);
+  transition: opacity 0.5s, transform 0.5s, visibility 0.5s;
+  font-family: "SEBANG_Gothic_Bold";
+  font-size: 60px;
+  margin: 0;
+}
+.Scrovisible {
+  opacity: 1;
+  transform: translateY(5px);
 }
 
 #reviewTitle {
   position: relative;
   align-items: center;
-  top:30px
+  top: 30px;
 }
 
 #partyTitle {
   position: relative;
   align-items: center;
-  top:50px
+  top: 50px;
 }
 
 #onlineTitle {
   position: relative;
   align-items: center;
   top: 30px;
+}
+
+@font-face {
+  font-family: "SEBANG_Gothic_Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }

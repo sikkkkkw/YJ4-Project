@@ -679,13 +679,13 @@ body {
     left: 0;
     top: 320px;
     font-size: 20px;
-    padding: 20px 5px;
+    padding: 20px 10px;
   }
   .tubeTxt1 {
     font-size: 28px;
   }
   .tubeTxt3 {
-    font-size: 22px;
+    font-size: 21px;
   }
   #job {
     height: 500px;
@@ -723,7 +723,7 @@ body {
     left: 20px;
   }
   #onlineSubmit {
-    left: 0;
+    left: 75px;
   }
   #prr {
     width: 95vw;
@@ -732,4 +732,23 @@ body {
     height: 320px;
     padding-left: 10px;
   }
+
+  .aniTitle {
+    font-size: 40px;
+    width: 100vw;
+    word-break: keep-all;
+  }
+  body {
+    width: 100vw;
+  }
+  #back1 {
+    top: 1900px;
+    height: 550px;
+  }
+  /* .carouselBox {
+    margin: 0;
+  }
+  .carouselBox .carousel img {
+    width: 300px;
+  } */
 }
