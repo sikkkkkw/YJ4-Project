@@ -622,6 +622,10 @@ body {
     width: 950px;
     left: 25px;
   }
+
+  #mobileImg {
+    display: none;
+  }
   .reviewBottomTxt ul {
     width: 1005px;
     justify-content: space-around;
@@ -738,17 +742,36 @@ body {
     width: 100vw;
     word-break: keep-all;
   }
+  html,
   body {
     width: 100vw;
+    overflow-x: hidden;
   }
   #back1 {
     top: 1900px;
     height: 550px;
   }
-  /* .carouselBox {
-    margin: 0;
+
+  .carouselBox2 {
+    overflow-x: hidden;
   }
-  .carouselBox .carousel img {
-    width: 300px;
-  } */
+  .carousel2 {
+    width: 390px;
+  }
+
+  #fragment {
+    display: none;
+  }
+  .carouselBox {
+    margin: 0;
+    display: none;
+  }
+  #mobileImg {
+    margin: 20px;
+    width: 90vw;
+    display: block;
+  }
+  .stamp_box {
+    left: -300px;
+  }
 }
