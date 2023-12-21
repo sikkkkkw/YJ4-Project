@@ -562,6 +562,10 @@ body {
     format("woff");
 }
 
+#mobileImg {
+  display: none;
+}
+
 /* Pretendard */
 @font-face {
   font-family: "Pretendard-Regular";
@@ -623,9 +627,6 @@ body {
     left: 25px;
   }
 
-  #mobileImg {
-    display: none;
-  }
   .reviewBottomTxt ul {
     width: 1005px;
     justify-content: space-around;
@@ -738,7 +739,7 @@ body {
   }
 
   .aniTitle {
-    font-size: 40px;
+    font-size: 38px;
     width: 100vw;
     word-break: keep-all;
   }
