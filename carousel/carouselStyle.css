@@ -1,5 +1,5 @@
 /* 캐러셀 스타일 */
-*{
+* {
   box-sizing: border-box;
 }
 .carouselBox {
@@ -8,12 +8,13 @@
   overflow: hidden;
   position: relative;
   margin: 0 auto;
+  left: -35px;
 }
 
 .carousel {
   display: flex;
   transition: transform 0.3s ease;
-  margin-top : 90px;
+  margin-top: 90px;
 }
 
 .carouselBox .carousel img {
@@ -28,7 +29,7 @@
 
 .carousel img:hover {
   transition: all 0.1s;
-  border: 5px solid rgba(255,255,255,0);
+  border: 5px solid rgba(255, 255, 255, 0);
 }
 
 /* 자동 캐러셀 스타일 */
@@ -36,7 +37,7 @@
   position: relative;
   width: 1060px;
   left: -40%;
-  top:40px
+  top: 40px;
 }
 
 .carousel2 {
