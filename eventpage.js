@@ -20,7 +20,7 @@ btnGo2.addEventListener("click", () => {
   // alert(REDIRECT_URI);
   window.open(
     `https://kauth.kakao.com/oauth/authorize?client_id=49765fcbcf0fe5bc094eb6ec9b643b8f&redirect_uri=${REDIRECT_URI}/api/v1/users/social/kakao/register&response_type=code`,
-    "_blank"
+    "_self"
   );
 });
 
