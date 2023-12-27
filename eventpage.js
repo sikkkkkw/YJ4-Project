@@ -23,6 +23,7 @@ btnGo2.addEventListener("click", () => {
     "_self"
   );
 });
+const missionId = localStorage.getItem("missionId");
 
 btnGo3.addEventListener("click", () => {
   if (!missionId) {
@@ -34,15 +35,11 @@ btnGo3.addEventListener("click", () => {
   }
 });
 
-const missionId = localStorage.getItem("missionId");
 const url = new URL(window.location.href);
 const param = new URLSearchParams(url.search);
 const id = param.get("id");
 
-console.log(missionId);
-
 if (missionId !== null) {
-  console.log("missionId Check");
   fetch(`${REDIRECT_URI}/api/v1/users/login/success`, {
     method: "POST",
     headers: {
