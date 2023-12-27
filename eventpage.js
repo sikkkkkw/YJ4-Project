@@ -18,11 +18,12 @@ const REACT = "https://lustrous-dieffenbachia-0e5fd9.netlify.app";
 // 아이캔 애플리케이션
 btnGo2.addEventListener("click", () => {
   alert(REDIRECT_URI);
-  window.open(
-    `https://kauth.kakao.com/oauth/authorize?client_id=49765fcbcf0fe5bc094eb6ec9b643b8f&redirect_uri=${REDIRECT_URI}/api/v1/users/social/kakao/register&response_type=code`,
-    "_self"
-  );
+  // window.open(
+  //   `https://kauth.kakao.com/oauth/authorize?client_id=49765fcbcf0fe5bc094eb6ec9b643b8f&redirect_uri=${REDIRECT_URI}/api/v1/users/social/kakao/register&response_type=code`,
+  //   "_self"
+  // );
 });
+
 btnGo3.addEventListener("click", () => {
   if (!missionId) {
     alert("카카오채널 추가 미션을 먼저 수행하셔야 합니다.");
