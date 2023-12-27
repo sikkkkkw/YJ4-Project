@@ -33,11 +33,11 @@ btnGo3.addEventListener("click", () => {
   }
 });
 
+const missionId = localStorage.getItem("missionId");
 const url = new URL(window.location.href);
 const param = new URLSearchParams(url.search);
 const id = param.get("id");
 
-const missionId = localStorage.getItem("missionId");
 console.log(missionId);
 
 if (missionId !== null) {
@@ -56,6 +56,8 @@ if (missionId !== null) {
         circleTxt2.innerText = "미션완료";
       }
     });
+} else {
+  console.log("missionId 없음");
 }
 
 fetch(`${REDIRECT_URI}/api/v1/users/instaUrl?id=${missionId}`)
