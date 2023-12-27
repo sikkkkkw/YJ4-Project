@@ -3,10 +3,9 @@ const btnGo2 = document.querySelector("#btnGo2");
 const btnGo3 = document.querySelector("#btnGo3");
 
 // 서버에 업데이트 전에 REDIRCT_URI 클라우드타입 호스팅 주소로 변경
+const REDIRECT_URI = "http://localhost:3000";
 // const REDIRECT_URI =
 //   "https://port-0-landing-iwon-backend-by52fb24lbbufx8n.gksl2.cloudtype.app";
-const REDIRECT_URI =
-  "https://port-0-landing-iwon-backend-by52fb24lbbufx8n.gksl2.cloudtype.app";
 const REACT = "https://lustrous-dieffenbachia-0e5fd9.netlify.app";
 // const REACT = "http://localhost:5173";
 
