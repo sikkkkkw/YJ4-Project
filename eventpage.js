@@ -38,6 +38,7 @@ const param = new URLSearchParams(url.search);
 const id = param.get("id");
 
 const missionId = localStorage.getItem("missionId");
+console.log(missionId);
 
 if (missionId !== null) {
   console.log("missionId Check");
