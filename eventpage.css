@@ -108,11 +108,11 @@ header {
 }
 
 #circle2 {
-  left: 28%;
+  left: 32%;
   position: absolute;
 }
 #circle3 {
-  left: 58%;
+  left: 55%;
   position: absolute;
 }
 
@@ -123,10 +123,10 @@ header {
 }
 
 #circleTxt2 {
-  left: 28%;
+  left: 32%;
 }
 #circleTxt3 {
-  left: 58%;
+  left: 55%;
 }
 
 .btnGo {
@@ -151,10 +151,10 @@ header {
 }
 
 #btnGo2 {
-  left: 31%;
+  left: 34.5%;
 }
 #btnGo3 {
-  left: 61.5%;
+  left: 57.5%;
 }
 
 #backSmall2 {
