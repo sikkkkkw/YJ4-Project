@@ -17,8 +17,20 @@ const REACT = "https://lustrous-dieffenbachia-0e5fd9.netlify.app";
 //   );
 // });
 // 아이캔 애플리케이션
+
+function addChannel() {
+  Kakao.Channel.addChannel({
+    channelPublicId: "_gqqxbM",
+  })
+    .then((response) => {
+      console.log(response);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+}
 btnGo2.addEventListener("click", () => {
-  // alert(REDIRECT_URI);
+  // addChannel();
   window.open(
     `https://kauth.kakao.com/oauth/authorize?client_id=49765fcbcf0fe5bc094eb6ec9b643b8f&redirect_uri=${REDIRECT_URI}/api/v1/users/social/kakao/register&response_type=code`,
     "_self"
@@ -32,7 +44,7 @@ btnGo3.addEventListener("click", () => {
       "https://sikkkkkw.github.io/YJ4-Project/eventpage.html";
   }
   missionId = localStorage.getItem("missionId");
-  window.open(`${REACT}?id=${missionId}`, "_self");
+  window.open(`${REACT}?id=${missionId}`, "_blank");
 });
 
 const url = new URL(window.location.href);
