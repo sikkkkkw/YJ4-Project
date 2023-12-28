@@ -26,12 +26,12 @@ btnGo2.addEventListener("click", () => {
 });
 
 btnGo3.addEventListener("click", () => {
-  if (!missionId) {
+  if (missionId !== null) {
     alert("카카오채널 추가 미션을 먼저 수행하셔야 합니다.");
     window.location.href =
       "https://sikkkkkw.github.io/YJ4-Project/eventpage.html";
   }
-  ndow.open(`${REACT}?id=${missionId}`, "_self");
+  window.open(`${REACT}?id=${missionId}`, "_self");
 });
 
 const url = new URL(window.location.href);
