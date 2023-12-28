@@ -1,6 +1,7 @@
 const btnGo1 = document.querySelector("#btnGo1");
 const btnGo2 = document.querySelector("#btnGo2");
 const btnGo3 = document.querySelector("#btnGo3");
+const missionId = localStorage.getItem("missionId");
 
 // 서버에 업데이트 전에 REDIRCT_URI 클라우드타입 호스팅 주소로 변경
 // const REDIRECT_URI = "http://localhost:3000";
@@ -23,16 +24,14 @@ btnGo2.addEventListener("click", () => {
     "_self"
   );
 });
-const missionId = localStorage.getItem("missionId");
 
 btnGo3.addEventListener("click", () => {
   if (!missionId) {
     alert("카카오채널 추가 미션을 먼저 수행하셔야 합니다.");
     window.location.href =
       "https://sikkkkkw.github.io/YJ4-Project/eventpage.html";
-  } else {
-    window.open(`${REACT}?id=${missionId}`, "_self");
   }
+  ndow.open(`${REACT}?id=${missionId}`, "_self");
 });
 
 const url = new URL(window.location.href);
